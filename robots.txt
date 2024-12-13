@@ -1,1 +1,1 @@
-Sitemap: https://dkarakay.github.io/test-page/sitemap.xml
+Sitemap: https://ua-mri.github.io/sitemap.xml
