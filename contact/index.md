@@ -23,8 +23,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   type="phone"
   text="(555) 867-5309"
   link="+1-555-867-5309"
-%} -->
-
+%}
 {%
   include button.html
   type="address"

@@ -134,10 +134,6 @@ for index, source in enumerate(sources):
     # source id
     _id = get_safe(source, "id", "").strip()
 
-    # If _id starts with eid skip
-    if _id.startswith("eid"):
-        continue
-
     # Manubot doesn't work without an id
     if _id:
         log("Using Manubot to generate citation", 1)

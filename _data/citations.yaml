@@ -1,944 +1,247 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1002/mp.16820
-  title: "Reducing annotation burden in MR: A novel MR\u2010contrast guided contrastive\
-    \ learning approach for image segmentation"
-  authors:
-  - Lavanya Umapathy
-  - Taylor Brown
-  - Raza Mushtaq
-  - Mark Greenhill
-  - J'rick Lu
-  - Diego Martin
-  - Maria Altbach
-  - Ali Bilgin
-  publisher: Medical Physics
-  date: '2023-11-13'
-  link: https://doi.org/gt385s
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/mrm.29285
-  title: Cancellation of streak artifacts in radial abdominal imaging using interference
-    null space projection
-  authors:
-  - Zhiyang Fu
-  - Kevin Johnson
-  - Maria I. Altbach
-  - Ali Bilgin
-  publisher: Magnetic Resonance in Medicine
-  date: '2022-05-24'
-  link: https://doi.org/gt385t
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.3174/ajnr.A6970
-  title: A Stacked Generalization of 3D Orthogonal Deep Learning Convolutional Neural
-    Networks for Improved Detection of White Matter Hyperintensities in 3D FLAIR Images
-  authors:
-  - L. Umapathy
-  - G.G. Perez-Carrillo
-  - M.B. Keerthivasan
-  - J.A. Rosado-Toro
-  - M.I. Altbach
-  - B. Winegar
-  - C. Weinkauf
-  - A. Bilgin
-  publisher: American Journal of Neuroradiology
-  date: '2021-02-11'
-  link: https://doi.org/gt385v
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.3174/ajnr.A6538
-  title: Fully Automated Segmentation of Globes for Volume Quantification in CT Images
-    of Orbits using Deep Learning
-  authors:
-  - L. Umapathy
-  - B. Winegar
-  - L. MacKinnon
-  - M. Hill
-  - M.I. Altbach
-  - J.M. Miller
-  - A. Bilgin
-  publisher: American Journal of Neuroradiology
-  date: '2020-05-21'
-  link: https://doi.org/gq6bmw
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.image.2020.115812
-  title: Visibility of quantization errors in reversible JPEG2000
-  authors:
-  - Feng Liu
-  - Eze Ahanonu
-  - Michael W. Marcellin
-  - Yuzhang Lin
-  - Amit Ashok
-  - Ali Bilgin
-  publisher: 'Signal Processing: Image Communication'
-  date: '2020-05-01'
-  link: https://doi.org/gt385w
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.3174/ajnr.A5713
-  title: Clinical Utility of a Novel Ultrafast T2-Weighted Sequence for Spine Imaging
-  authors:
-  - M.B. Keerthivasan
-  - B. Winegar
-  - J.L. Becker
-  - A. Bilgin
-  - M.I. Altbach
-  - M. Saranathan
-  publisher: American Journal of Neuroradiology
-  date: '2018-07-12'
-  link: https://doi.org/gd46d9
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.911026
-  title: A field map estimation strategy without the noise-bandwidth tradeoff
-  authors:
-  - Joseph Dagher
-  - Ali Bilgin
-  publisher: SPIE Proceedings
-  date: '2012-02-23'
-  link: https://doi.org/fzpwc2
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.919561
-  title: Compressive sensing of frequency-hopping spread spectrum signals
-  authors:
-  - Feng Liu
-  - Yookyung Kim
-  - Nathan A. Goodman
-  - Amit Ashok
-  - Ali Bilgin
-  publisher: Compressive Sensing
-  date: '2012-06-01'
-  link: https://doi.org/gq8t9z
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/mrm.23128
-  title: <i>T</i><sub>2</sub> mapping from highly undersampled data by reconstruction
-    of principal component coefficient maps using compressed sensing
-  authors:
-  - Chuan Huang
-  - Christian G. Graff
-  - Eric W. Clarkson
-  - Ali Bilgin
-  - Maria I. Altbach
-  publisher: Magnetic Resonance in Medicine
-  date: '2011-08-16'
-  link: https://doi.org/bgb42s
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/mrm.24540
-  title: <i>T</i><sub>2</sub> relaxometry with indirect echo compensation from highly
-    undersampled data
-  authors:
-  - Chuan Huang
-  - Ali Bilgin
-  - Tomoe Barr
-  - Maria I. Altbach
-  publisher: Magnetic Resonance in Medicine
-  date: '2012-11-19'
-  link: https://doi.org/ghppnm
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TIP.2012.2188807
-  title: Wavelet-Based Compressed Sensing Using a Gaussian Scale Mixture Model
-  authors:
-  - Yookyung Kim
-  - Mariappan S. Nadar
-  - Ali Bilgin
-  publisher: IEEE Transactions on Image Processing
-  date: '2012-06-01'
-  link: https://doi.org/f3zvb3
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICIP.2011.6116097
-  title: Dynamic compressive magnetic resonance imaging using a Gaussian scale mixtures
-    model
-  authors:
-  - Yookyung Kim
-  - Mariappan S. Nadar
-  - Ali Bilgin
-  publisher: 2011 18th IEEE International Conference on Image Processing
-  date: '2011-09-01'
-  link: https://doi.org/fzs7rb
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TIP.2010.2077304
-  title: FAST Rate Allocation Through Steepest Descent for JPEG2000 Video Transmission
-  authors:
-  - "F Aul\xEC-Llin\xE0s"
-  - A Bilgin
-  - M W Marcellin
-  publisher: IEEE Transactions on Image Processing
-  date: '2011-04-01'
-  link: https://doi.org/dmb73f
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ISBI.2011.5872400
-  title: Model-based compressive diffusion tensor imaging
-  authors:
-  - Lingling Pu
-  - Theodore P. Trouard
-  - Lee Ryan
-  - Chuan Huang
-  - Maria I. Altbach
-  - Ali Bilgin
-  publisher: '2011 IEEE International Symposium on Biomedical Imaging: From Nano to
-    Macro'
-  date: '2011-03-01'
-  link: https://doi.org/frhdjz
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICIP.2011.6116321
-  title: Visually lossless JPEG2000 at fractional resolutions
-  authors:
-  - Han Oh
-  - Ali Bilgin
-  - Michael W. Marcellin
-  publisher: 2011 18th IEEE International Conference on Image Processing
-  date: '2011-09-01'
-  link: https://doi.org/fxxq4z
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICIP.2010.5652744
-  title: Compressed sensing using a Gaussian Scale Mixtures model in wavelet domain
-  authors:
-  - Yoo Kim
-  - Mariappan S. Nadar
-  - Ali Bilgin
-  publisher: 2010 IEEE International Conference on Image Processing
-  date: '2010-09-01'
-  link: https://doi.org/cbrzxb
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/DCC.2010.51
-  title: Exploiting Wavelet-Domain Dependencies in Compressed Sensing
-  authors:
-  - Yookyung Kim
-  - Mariappan S. Nadar
-  - Ali Bilgin
-  publisher: 2010 Data Compression Conference
-  date: '2010-01-01'
-  link: https://doi.org/ft87q9
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.861113
-  title: Motion-compensated compressed sensing for dynamic imaging
-  authors:
-  - Rajagopalan Sundaresan
-  - Yookyung Kim
-  - Mariappan S. Nadar
-  - Ali Bilgin
-  publisher: SPIE Proceedings
-  date: '2010-08-19'
-  link: https://doi.org/dqv59b
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICIP.2010.5651762
-  title: Multi-resolution visually lossless image coding using JPEG2000
-  authors:
-  - Han Oh
-  - Ali Bilgin
-  - Michael W. Marcellin
-  publisher: 2010 IEEE International Conference on Image Processing
-  date: '2010-09-01'
-  link: https://doi.org/c4wd5f
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICIP.2009.5413972
-  title: Hill climbing algorithm for the transmission of layered jpeg2000 video under
-    multiple rate constraints
-  authors:
-  - Francesc Auli-Llinas
-  - Han Oh
-  - Ali Bilgin
-  - Michael W. Marcellin
-  publisher: 2009 16th IEEE International Conference on Image Processing (ICIP)
-  date: '2009-11-01'
-  link: https://doi.org/dz9kbh
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TIP.2008.2011455
-  title: Improved Resolution Scalability for Bilevel Image Data in JPEG2000
-  authors:
-  - R. Raguram
-  - M.W. Marcellin
-  - A. Bilgin
-  publisher: IEEE Transactions on Image Processing
-  date: '2009-04-01'
-  link: https://doi.org/c3tdjs
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/mrm.21918
-  title: "Rapid water and lipid imaging with <i>T</i><sub>2</sub> mapping using a\
-    \ radial IDEAL\u2010GRASE technique"
-  authors:
-  - Zhiqiang Li
-  - Christian Graff
-  - Arthur F. Gmitro
-  - Scott W. Squire
-  - Ali Bilgin
-  - Eric K. Outwater
-  - Maria I. Altbach
-  publisher: Magnetic Resonance in Medicine
-  date: '2009-04-07'
-  link: https://doi.org/ff8bvd
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TIP.2009.2017151
-  title: View Compensated Compression of Volume Rendered Images for Remote Visualization
-  authors:
-  - H.G. Lalgudi
-  - M.W. Marcellin
-  - A. Bilgin
-  - H. Oh
-  - M.S. Nadar
-  publisher: IEEE Transactions on Image Processing
-  date: '2009-07-01'
-  link: https://doi.org/cw423v
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/QOMEX.2009.5246948
-  title: Visibility thresholds for quantization distortion in JPEG2000
-  authors:
-  - Han Oh
-  - Ali Bilgin
-  - Michael W. Marcellin
-  publisher: 2009 International Workshop on Quality of Multimedia Experience
-  date: '2009-07-01'
-  link: https://doi.org/fbhpz7
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ACSSC.2009.5469894
-  title: Visually lossless JPEG2000 using adaptive visibility thresholds and visual
-    masking effects
-  authors:
-  - Han Oh
-  - Ali Bilgin
-  - Michael W. Marcellin
-  publisher: 2009 Conference Record of the Forty-Third Asilomar Conference on Signals,
-    Systems and Computers
-  date: '2009-01-01'
-  link: https://doi.org/bbpp42
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/LSP.2008.922285
-  title: Compression of Multidimensional Images Using JPEG2000
-  authors:
-  - H.G. Lalgudi
-  - A. Bilgin
-  - M.W. Marcellin
-  - M.S. Nadar
-  publisher: IEEE Signal Processing Letters
-  date: '2008-01-01'
-  link: https://doi.org/d386zk
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/DCC.2008.29
-  title: Lifting-Based View Compensated Compression of Volume Rendered Images for
-    Efficient Remote Visualization
-  authors:
-  - Hariharan G. Lalgudi
-  - Michael W. Marcellin
-  - Ali Bilgin
-  - Mariappan S. Nadar
-  publisher: Data Compression Conference (dcc 2008)
-  date: '2008-03-01'
-  link: https://doi.org/czqssn
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.797206
-  title: Parallel magnetic resonance imaging using compressed sensing
-  authors:
-  - Ali Bilgin
-  - Yookyung Kim
-  - Hariharan G. Lalgudi
-  - Theodore P. Trouard
-  - Maria I. Altbach
-  publisher: Applications of Digital Image Processing XXXI
-  date: '2008-08-28'
-  link: https://doi.org/dsjjfb
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.794430
-  title: Scalable low complexity image coder for remote volume visualization
-  authors:
-  - Hariharan G. Lalgudi
-  - Michael W. Marcellin
-  - Ali Bilgin
-  - Mariappan S. Nadar
-  publisher: Applications of Digital Image Processing XXXI
-  date: '2008-08-28'
-  link: https://doi.org/d49783
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.image.2006.12.007
-  title: Unequal error protection and progressive decoding for JPEG2000
-  authors:
-  - Lingling Pu
-  - Michael W. Marcellin
-  - Bane Vasic
-  - Ali Bilgin
-  publisher: 'Signal Processing: Image Communication'
-  date: '2007-03-01'
-  link: https://doi.org/ckc3kt
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TIP.2006.888329
-  title: LDPC-Based Iterative Joint Source-Channel Decoding for JPEG2000
-  authors:
-  - Lingling Pu
-  - Zhenyu Wu
-  - Ali Bilgin
-  - Michael W. Marcellin
-  - Bane Vasic
-  publisher: IEEE Transactions on Image Processing
-  date: '2007-02-01'
-  link: https://doi.org/bsqwgn
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TCSVT.2007.904534
-  title: Error Resilient Decoding of JPEG2000
-  authors:
-  - ' Zhenyu Wu'
-  - A. Bilgin
-  - M.W. Marcellin
-  publisher: IEEE Transactions on Circuits and Systems for Video Technology
-  date: '2007-12-01'
-  link: https://doi.org/d5bdw3
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/mrm.21232
-  title: Fast decomposition of water and lipid using a GRASE technique with the IDEAL
-    algorithm
-  authors:
-  - Zhiqiang Li
-  - Arthur F. Gmitro
-  - Ali Bilgin
-  - Maria I. Altbach
-  publisher: Magnetic Resonance in Medicine
-  date: '2007-05-29'
-  link: https://doi.org/fwb5kx
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TIP.2007.901810
-  title: Joint Source-Channel Rate Allocation in Parallel Channels
-  authors:
-  - ' Lingling Pu'
-  - M.W. Marcellin
-  - I. Djordjevic
-  - B. Vasic
-  - A. Bilgin
-  publisher: IEEE Transactions on Image Processing
-  date: '2007-08-01'
-  link: https://doi.org/d5qps4
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TMI.2006.879956
-  title: Efficient transmission of compressed data for remote volume visualization
-  authors:
-  - K. Krishnan
-  - M.W. Marcellin
-  - A. Bilgin
-  - M.S. Nadar
-  publisher: IEEE Transactions on Medical Imaging
-  date: '2006-09-01'
-  link: https://doi.org/bh9qhx
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICIP.2005.1530163
-  title: Compression of fMRI and ultrasound images using 4D SPIHT
-  authors:
-  - H.G. Lalgudi
-  - A. Bilgin
-  - M.W. Marcellin
-  - M.S. Nadar
-  publisher: IEEE International Conference on Image Processing 2005
-  date: '2005-01-01'
-  link: https://doi.org/bwddms
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.596037
-  title: '&lt;title&gt;Compression of multislice CT: 2D vs. 3D JPEG2000 and effects
-    of slice thickness&lt;/title&gt;'
-  authors:
-  - Eliot Siegel
-  - Khan Siddiqui
-  - Jeffrey Johnson
-  - Olivier Crave
-  - Zhenyu Wu
-  - Joseph Dagher
-  - Ali Bilgin
-  - Michael Marcellin
-  - Mariappan Nadar
-  - Bruce Reiner
-  publisher: SPIE Proceedings
-  date: '2005-04-15'
-  link: https://doi.org/d7th7b
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICIP.2005.1529867
-  title: Error concealment for motion JPEG2000
-  authors:
-  - L. Atzori
-  - A. Bilgin
-  - M.W. Marcellin
-  publisher: IEEE International Conference on Image Processing 2005
-  date: '2005-01-01'
-  link: https://doi.org/dwzn76
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.595885
-  title: Four-dimensional compression of fMRI using JPEG2000
-  authors:
-  - Hariharan G. Lalgudi
-  - Ali Bilgin
-  - Michael W. Marcellin
-  - Ali Tabesh
-  - Mariappan S. Nadar
-  - Theodore P. Trouard
-  publisher: SPIE Proceedings
-  date: '2005-04-29'
-  link: https://doi.org/cw5d5b
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/mrm.20691
-  title: "Interleaved acquisition of lipid and water images of the heart using a double\u2010\
-    inversion fast spin\u2010echo method"
-  authors:
-  - Maria I. Altbach
-  - Zhiqiang Li
-  - Ali Bilgin
-  - Frank I. Marcus
-  - Vincent L. Sorrell
-  - Arthur F. Gmitro
-  - David A. Bluemke
-  publisher: Magnetic Resonance in Medicine
-  date: '2005-10-10'
-  link: https://doi.org/d3bfmx
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TIP.2005.851681
-  title: Joint source/channel coding for image transmission with JPEG2000 over memoryless
-    channels
-  authors:
-  - ' Zhenyu Wu'
-  - A. Bilgin
-  - M.W. Marcellin
-  publisher: IEEE Transactions on Image Processing
-  date: '2005-08-01'
-  link: https://doi.org/crxgjn
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TCOMM.2005.857142
-  title: Joint Source/Channel Coding for Multiple Images
-  authors:
-  - Z. Wu
-  - A. Bilgin
-  - M.W. Marcellin
-  publisher: IEEE Transactions on Communications
-  date: '2005-10-01'
-  link: https://doi.org/bbxd89
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.594914
-  title: '&lt;title&gt;Prioritization of compressed data by tissue type using JPEG2000&lt;/title&gt;'
-  authors:
-  - Karthik Krishnan
-  - Michael W. Marcellin
-  - Ali Bilgin
-  - Mariappan Nadar
-  publisher: SPIE Proceedings
-  date: '2005-04-15'
-  link: https://doi.org/fb3hk4
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/mrm.20611
-  title: "Processing of radial fast spin\u2010echo data for obtaining T<sub>2</sub>\
-    \ estimates from a single k\u2010space data set"
-  authors:
-  - Maria I. Altbach
-  - Ali Bilgin
-  - Zhiqiang Li
-  - Eric W. Clarkson
-  - Theodore P. Trouard
-  - Arthur F. Gmitro
-  publisher: Magnetic Resonance in Medicine
-  date: '2005-08-05'
-  link: https://doi.org/cr8q33
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.584776
-  title: Reduced memory multi-layer multi-component rate allocation for JPEG2000
-  authors:
-  - Prajit Kulkarni
-  - Ali Bilgin
-  - Michael W. Marcellin
-  - Joseph C. Dagher
-  - Thomas Flohr
-  - Janet Rountree
-  publisher: SPIE Proceedings
-  date: '2005-03-14'
-  link: https://doi.org/b3qstg
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICIP.2005.1530537
-  title: Unequal error protection and progressive decoding for JPEG2000
-  authors:
-  - ' Lingling Pu'
-  - M.W. Marcellin
-  - B. Vasic
-  - A. Bilgin
-  publisher: IEEE International Conference on Image Processing 2005
-  date: '2005-01-01'
-  link: https://doi.org/cnmdhm
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.535650
-  title: Compression/decompression strategies for large-volume medical imagery
-  authors:
-  - Karthik Krishnan
-  - Michael W. Marcellin
-  - Ali Bilgin
-  - Mariappan S. Nadar
-  publisher: SPIE Proceedings
-  date: '2004-04-19'
-  link: https://doi.org/df9k9z
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.526014
-  title: Robust transmission of JPEG2000 codestreams over packet erasure channels
-  authors:
-  - Zhenyu Wu
-  - Ali Bilgin
-  - Lingling Pu
-  - Michael W. Marcellin
-  publisher: SPIE Proceedings
-  date: '2004-01-07'
-  link: https://doi.org/crp8mw
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TCE.2003.1261162
-  title: Compression of electrocardiogram signals using JPEG2000
-  authors:
-  - A. Bilgin
-  - M.W. Marcellin
-  - M.I. Altbach
-  publisher: IEEE Transactions on Consumer Electronics
-  date: '2003-11-01'
-  link: https://doi.org/bs2mcj
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/B978-012620861-0/50019-X
-  title: JPEG2000
-  authors:
-  - Ali Bilgin
-  - Michael W. Marcellin
-  publisher: Lossless Compression Handbook
-  date: '2003-01-01'
-  link: https://doi.org/b66vs3
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.476633
-  title: Transmission of JPEG2000 codestreams over packet erasure channels
-  authors:
-  - Ali Bilgin
-  - Zhenyu Wu
-  - Michael W. Marcellin
-  publisher: SPIE Proceedings
-  date: '2003-05-07'
-  link: https://doi.org/fhxvj4
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TIP.2003.819228
-  title: Resource-constrained rate control for motion JPEG2000
-  authors:
-  - J.C. Dagher
-  - A. Bilgin
-  - M.W. Marcellin
-  publisher: IEEE Transactions on Image Processing
-  date: '2003-12-01'
-  link: https://doi.org/bztg7d
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/S0923-5965(01)00027-3
-  title: An overview of quantization in JPEG 2000
-  authors:
-  - Michael W. Marcellin
-  - Margaret A. Lepley
-  - Ali Bilgin
-  - Thomas J. Flohr
-  - Troy T. Chinen
-  - James H. Kasner
-  publisher: 'Signal Processing: Image Communication'
-  date: '2002-01-01'
-  link: https://doi.org/bt9wr7
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.453104
-  title: Packetization of JPEG2000 codestreams
-  authors:
-  - Ali Bilgin
-  - Zhenyu Wu
-  - Michael W. Marcellin
-  publisher: SPIE Proceedings
-  date: '2002-01-07'
-  link: https://doi.org/dt96xz
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.453060
-  title: Rate control for multisequence video streaming
-  authors:
-  - Joseph C. Dagher
-  - Ali Bilgin
-  - Michael W. Marcellin
-  publisher: SPIE Proceedings
-  date: '2002-01-07'
-  link: https://doi.org/cddm3t
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.449759
-  title: '&lt;title&gt;Efficient rate control for video streaming&lt;/title&gt;'
-  authors:
-  - Joseph C. Dagher
-  - Ali Bilgin
-  - Michael W. Marcellin
-  publisher: SPIE Proceedings
-  date: '2001-12-07'
-  link: https://doi.org/b3srzj
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/97.905942
-  title: Quantifying the parent-child coding gain in zero-tree-based coders
-  authors:
-  - M.W. Marcellin
-  - A. Bilgin
-  publisher: IEEE Signal Processing Letters
-  date: '2001-03-01'
-  link: https://doi.org/c5242x
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.406584
-  title: JPEG-2000 compression using 3D wavelets and KLT with application to HYDICE
-    data
-  authors:
-  - James H. Kasner
-  - Ali Bilgin
-  - Michael W. Marcellin
-  - Austin Lan
-  - Bernard V. Brower
-  - Sylvia S. Shen
-  - Timothy S. Wilkinson
-  publisher: SPIE Proceedings
-  date: '2000-11-15'
-  link: https://doi.org/cgkmmj
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/83.821746
-  title: Lapped nonlinear interpolative vector quantization and image super-resolution
-  authors:
-  - D.G. Sheppard
-  - K. Panchapakesan
-  - A. Bilgin
-  - B.R. Hunt
-  - M.W. Marcellin
-  publisher: IEEE Transactions on Image Processing
-  date: '2000-01-01'
-  link: https://doi.org/dvqkwc
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/83.877218
-  title: Scalable image coding using reversible integer wavelet transforms
-  authors:
-  - A. Bilgin
-  - J. Sementilli
-  - ' Fang Sheng'
-  - M.W. Marcellin
-  publisher: IEEE Transactions on Image Processing
-  date: '2000-01-01'
-  link: https://doi.org/b563sq
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/83.799891
-  title: Progressive image coding using trellis coded quantization
-  authors:
-  - A. Bilgin
-  - P.J. Sementilli
-  - M.W. Marcellin
-  publisher: IEEE Transactions on Image Processing
-  date: '1999-01-01'
-  link: https://doi.org/dgjv5q
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/83.650857
-  title: A vector quantizer for image restoration
-  authors:
-  - D.G. Sheppard
-  - A. Bilgin
-  - M.S. Nadar
-  - B.R. Hunt
-  - M.W. Marcellin
-  publisher: IEEE Transactions on Image Processing
-  date: '1998-01-01'
-  link: https://doi.org/bhk98t
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.323206
-  title: '&lt;title&gt;Combined compression and denoising of images using vector quantization&lt;/title&gt;'
-  authors:
-  - Kannan Panchapakesan
-  - Ali Bilgin
-  - David G. Sheppard
-  - Michael W. Marcellin
-  - Bobby R. Hunt
-  publisher: SPIE Proceedings
-  date: '1998-10-01'
-  link: https://doi.org/bcrhsm
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1117/12.323190
-  title: '&lt;title&gt;Wavelet TCQ: submission to JPEG-2000&lt;/title&gt;'
-  authors:
-  - Philip J. Sementilli
-  - Ali Bilgin
-  - James H. Kasner
-  - Michael W. Marcellin
-  publisher: SPIE Proceedings
-  date: '1998-10-01'
-  link: https://doi.org/bb3jx2
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:http://dx.doi.org/10.1002/mrm.24636
-  title: "High\u2010resolution, large dynamic range field map estimation"
-  authors:
-  - Joseph Dagher
-  - Timothy Reese
-  - Ali Bilgin
-  publisher: Magnetic Resonance in Medicine
-  date: '2014-01-01'
-  link: https://doi.org/gt386h
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/DCC.2007.48
-  title: Improved Resolution Scalability for Bi-Level Image Data in JPEG2000
-  authors:
-  - Rahul Raguram
-  - Michael W. Marcellin
-  - Ali Bilgin
-  publisher: 2007 Data Compression Conference (DCC'07)
-  date: '2007-01-01'
-  link: https://doi.org/bknjx3
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/DCC.2008.27
-  title: Multi-dimensional Compression Using JPEG2000
-  authors:
-  - Hariharan G. Lalgudi
-  - Ali Bilgin
-  - Michael W. Marcellin
-  - Mariappan S. Nadar
-  publisher: Data Compression Conference (dcc 2008)
-  date: '2008-03-01'
-  link: https://doi.org/bfc7gc
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:http://dx.doi.org/10.1364/ao.39.001799
-  title: Three-dimensional image compression with integer wavelet transforms
-  authors:
-  - Ali Bilgin
-  - George Zweig
-  - Michael W. Marcellin
-  publisher: Applied Optics
-  date: '2000-04-10'
-  link: https://doi.org/bbj9mg
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:http://dx.doi.org/10.1109/dcc.2013.71
-  title: Visually Lossless Compression of Stereo Images | IEEE Conference Publication
-    | IEEE Xplore
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://doi.org/gt386j
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:http://dx.doi.org/10.1109/dcc.2013.84
-  title: Visually Lossless Compression of Windowed Images | IEEE Conference Publication
-    | IEEE Xplore
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://doi.org/gt386k
-  orcid: 0000-0003-4196-4036
-  plugin: orcid.py
-  file: orcid.yaml
+- id: doi:10.1093/nar/gkad1082
+  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
+    \ genes\_and diseases across species"
+  authors:
+  - Tim E Putman
+  - Kevin Schaper
+  - Nicolas Matentzoglu
+  - "Vincent\_P Rubinetti"
+  - "Faisal\_S Alquaddoomi"
+  - Corey Cox
+  - J Harry Caufield
+  - Glass Elsarboukh
+  - Sarah Gehrke
+  - Harshad Hegde
+  - "Justin\_T Reese"
+  - Ian Braun
+  - "Richard\_M Bruskiewich"
+  - Luca Cappelletti
+  - Seth Carbon
+  - "Anita\_R Caron"
+  - "Lauren\_E Chan"
+  - "Christopher\_G Chute"
+  - "Katherina\_G Cortes"
+  - "Vin\xEDcius De\_Souza"
+  - Tommaso Fontana
+  - "Nomi\_L Harris"
+  - "Emily\_L Hartley"
+  - Eric Hurwitz
+  - "Julius\_O B Jacobsen"
+  - Madan Krishnamurthy
+  - "Bryan\_J Laraway"
+  - "James\_A McLaughlin"
+  - "Julie\_A McMurry"
+  - "Sierra\_A T Moxon"
+  - "Kathleen\_R Mullen"
+  - "Shawn\_T O\u2019Neil"
+  - "Kent\_A Shefchek"
+  - Ray Stefancsik
+  - Sabrina Toro
+  - "Nicole\_A Vasilevsky"
+  - "Ramona\_L Walls"
+  - "Patricia\_L Whetzel"
+  - David Osumi-Sutherland
+  - Damian Smedley
+  - "Peter\_N Robinson"
+  - "Christopher\_J Mungall"
+  - "Melissa\_A Haendel"
+  - "Monica\_C Munoz-Torres"
+  publisher: Nucleic Acids Research
+  date: '2023-11-24'
+  link: https://doi.org/gs6kmr
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.10.11.560955
+  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+  authors:
+  - Richard J. Abdill
+  - Samantha P. Graham
+  - Vincent Rubinetti
+  - Frank W. Albert
+  - Casey S. Greene
+  - Sean Davis
+  - Ran Blekhman
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-10-11'
+  link: https://doi.org/gsvf5z
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/nar/gkad289
+  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
+    and user-created collections of genes'
+  authors:
+  - Ricardo Avila
+  - Vincent Rubinetti
+  - Xinghua Zhou
+  - Dongbo Hu
+  - Zhongchao Qian
+  - Marco Alvarado Cano
+  - Everaldo Rodolpho
+  - Ginger Tsueng
+  - Casey Greene
+  - Chunlei Wu
+  publisher: Nucleic Acids Research
+  date: '2023-04-18'
+  link: https://doi.org/gr5hb5
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.01.05.522941
+  title: Hetnet connectivity search provides rapid insights into how two biomedical
+    entities are related
+  authors:
+  - Daniel S. Himmelstein
+  - Michael Zietz
+  - Vincent Rubinetti
+  - Kyle Kloster
+  - Benjamin J. Heil
+  - Faisal Alquaddoomi
+  - Dongbo Hu
+  - David N. Nicholson
+  - Yun Hao
+  - Blair D. Sullivan
+  - Michael W. Nagle
+  - Casey S. Greene
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-01-07'
+  link: https://doi.org/grmcb9
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/gigascience/giad047
+  title: Hetnet connectivity search provides rapid insights into how biomedical entities
+    are related
+  authors:
+  - Daniel S Himmelstein
+  - Michael Zietz
+  - Vincent Rubinetti
+  - Kyle Kloster
+  - Benjamin J Heil
+  - Faisal Alquaddoomi
+  - Dongbo Hu
+  - David N Nicholson
+  - Yun Hao
+  - Blair D Sullivan
+  - Michael W Nagle
+  - Casey S Greene
+  publisher: GigaScience
+  date: '2022-12-28'
+  link: https://doi.org/gsd85n
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2022.02.18.461833
+  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
+    and phylogeny'
+  authors:
+  - Jacob D Krol
+  - Joseph T Burke
+  - Samuel Z Chen
+  - Lo M Sosinski
+  - Faisal S Alquaddoomi
+  - Evan P Brenner
+  - Ethan P Wolfe
+  - Vincent P Rubinetti
+  - Shaddai Amolitos
+  - Kellen M Reason
+  - John B Johnston
+  - Janani Ravi
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-02-22'
+  link: https://doi.org/gstx7j
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s13059-020-02021-3
+  title: Compressing gene expression data using multiple latent space dimensionalities
+    learns complementary biological representations
+  authors:
+  - Gregory P. Way
+  - Michael Zietz
+  - Vincent Rubinetti
+  - Daniel S. Himmelstein
+  - Casey S. Greene
+  publisher: Genome Biology
+  date: '2020-05-11'
+  link: https://doi.org/gg2mjh
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pcbi.1007128
+  title: Open collaborative writing with Manubot
+  authors:
+  - Daniel S. Himmelstein
+  - Vincent Rubinetti
+  - David R. Slochower
+  - Dongbo Hu
+  - Venkat S. Malladi
+  - Casey S. Greene
+  - Anthony Gitter
+  publisher: PLOS Computational Biology
+  date: '2020-12-04'
+  link: https://doi.org/c7np
+  orcid: 0000-0002-4655-3773
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: manubot
+    link: https://greenelab.github.io/meta-review/
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  repo: greenelab/meta-review
+- id: doi:10.1101/573782
+  title: Sequential compression of gene expression across dimensionalities and methods
+    reveals no single best method or dimensionality
+  authors:
+  - Gregory P. Way
+  - Michael Zietz
+  - Vincent Rubinetti
+  - Daniel S. Himmelstein
+  - Casey S. Greene
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-03-11'
+  link: https://doi.org/gfxjxf
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.csbj.2020.05.017
+  title: Constructing knowledge graphs and their biomedical applications
+  authors:
+  - David N. Nicholson
+  - Casey S. Greene
+  publisher: Computational and Structural Biotechnology Journal
+  date: '2020-01-01'
+  link: https://doi.org/gg7m48
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.7554/eLife.32822
+  title: Sci-Hub provides access to nearly all scholarly literature
+  authors:
+  - Daniel S Himmelstein
+  - Ariel Rodriguez Romero
+  - Jacob G Levernier
+  - Thomas Anthony Munro
+  - Stephen Reid McLaughlin
+  - Bastian Greshake Tzovaras
+  - Casey S Greene
+  publisher: eLife
+  date: '2018-03-01'
+  link: https://doi.org/ckcj
+  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  plugin: sources.py
+  file: sources.yaml
