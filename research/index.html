@@ -41,7 +41,7 @@
 
 <title>Research | Altbach-Bilgin's Lab</title>
 
-<link rel="icon" href="/images/icon.jpg">
+<link rel="icon" href="/images/icon.png">
 
 <meta name="title" content="Research">
 <meta name="description" content="MRI Research. Altbach-Bilgin's Lab is a research group at the University of Arizona that focuses on Medical Imaging.">
@@ -74,7 +74,7 @@
     "headline": "Research",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
     "url": "https://ua-mri.github.io"
   }
@@ -159,6 +159,10 @@
   
 
   
+    <link href="/_styles/details.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/feature.css" rel="stylesheet">
   
 
@@ -220,10 +224,6 @@
 
   
     <link href="/_styles/paragraph.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/portrait.css" rel="stylesheet">
   
 
   
@@ -330,6 +330,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -374,7 +376,64 @@
     
       <span class="logo">
         
-          <img src="/images/logo.png" alt="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
+  <style>
+    .bubble {
+      animation: float 2s ease-out both infinite var(--delay);
+    }
+    @keyframes float {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+    }
+  </style>
+  <g fill="currentColor" opacity="0.5">
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
+  </g>
+  <path fill="#38bdf8" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L -19.5 11.25
+      L 0 22.5
+      L 19.5 11.25
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="#bae6fd" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L 0 0
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="none" stroke="currentColor" stroke-width="5" d="
+      M -18 -53
+      L -10 -53
+      L -10 -29.2
+      L -30.3 -17.5
+      L -30.3 17.5
+      L 0 35
+      L 30.3 17.5
+      L 30.3 -17.5
+      L 10 -29.2
+      L 10 -53
+      L 18 -53
+    "></path>
+</svg>
+
         
       </span>
     
@@ -414,6 +473,12 @@
       
     
       
+        <a href="/blog/" data-tooltip="Musings and miscellany">
+          Blog
+        </a>
+      
+    
+      
         <a href="/contact/" data-tooltip="Email, address, and location">
           Contact
         </a>
@@ -442,6 +507,9 @@
   <section class="background" data-size="page">
     <h1 id="research">
 <i class="icon fa-solid fa-microscope"></i>Research</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </section>
 
   
@@ -460,8 +528,8 @@
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/bgb42s" class="citation-image" aria-label="&lt;i&gt;T&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; mapping from highly undersampled data by reconstruction of principal component coefficient maps using compressed sensing">
-        <img src="" alt="&lt;i&gt;T&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; mapping from highly undersampled data by reconstruction of principal component coefficient maps using compressed sensing" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -469,21 +537,21 @@
       
       
 
-      <a href="https://doi.org/bgb42s" class="citation-title">
-        <i>T</i><sub>2</sub> mapping from highly undersampled data by reconstruction of principal component coefficient maps using compressed sensing
+      <a class="citation-title">
+        [no title info]
       </a>
 
       <div class="citation-authors" tabindex="0">
-        Chuan Huang, Christian G. Graff, Eric W. Clarkson, Ali Bilgin, Maria I. Altbach
+        
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
+        <span class="citation-publisher">[no publisher info]</span>
          · 
-        <span class="citation-date">16 Aug 2011</span>
+        <span class="citation-date">[no date info]</span>
          · 
-        <span class="citation-id">doi:10.1002/mrm.23128</span>
+        <span class="citation-id">[no id info]</span>
       </div>
 
       
@@ -525,8 +593,8 @@
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/gt385s" class="citation-image" aria-label="Reducing annotation burden in MR: A novel MR‐contrast guided contrastive learning approach for image segmentation">
-        <img src="" alt="Reducing annotation burden in MR: A novel MR‐contrast guided contrastive learning approach for image segmentation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/gs6kmr" class="citation-image" aria-label="The Monarch Initiative in 2024: an analytic platform integrating phenotypes, genes and diseases across species">
+        <img src="" alt="The Monarch Initiative in 2024: an analytic platform integrating phenotypes, genes and diseases across species" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -534,21 +602,141 @@
       
       
 
-      <a href="https://doi.org/gt385s" class="citation-title">
-        Reducing annotation burden in MR: A novel MR‐contrast guided contrastive learning approach for image segmentation
+      <a href="https://doi.org/gs6kmr" class="citation-title">
+        The Monarch Initiative in 2024: an analytic platform integrating phenotypes, genes and diseases across species
       </a>
 
-      <div class="citation-authors" tabindex="0">
-        Lavanya Umapathy, Taylor Brown, Raza Mushtaq, Mark Greenhill, J’rick Lu, Diego Martin, Maria Altbach, Ali Bilgin
+      <div class="citation-authors" data-tooltip="Tim E Putman, Kevin Schaper, Nicolas Matentzoglu, Vincent P Rubinetti, Faisal S Alquaddoomi, Corey Cox, J Harry Caufield, Glass Elsarboukh, Sarah Gehrke, Harshad Hegde, Justin T Reese, Ian Braun, Richard M Bruskiewich, Luca Cappelletti, Seth Carbon, Anita R Caron, Lauren E Chan, Christopher G Chute, Katherina G Cortes, Vinícius De Souza, Tommaso Fontana, Nomi L Harris, Emily L Hartley, Eric Hurwitz, Julius O B Jacobsen, Madan Krishnamurthy, Bryan J Laraway, James A McLaughlin, Julie A McMurry, Sierra A T Moxon, Kathleen R Mullen, Shawn T O’Neil, Kent A Shefchek, Ray Stefancsik, Sabrina Toro, Nicole A Vasilevsky, Ramona L Walls, Patricia L Whetzel, David Osumi-Sutherland, Damian Smedley, Peter N Robinson, Christopher J Mungall, Melissa A Haendel, Monica C Munoz-Torres" tabindex="0">
+        Tim E Putman, Kevin Schaper, Nicolas Matentzoglu, Vincent P Rubinetti, Faisal S Alquaddoomi, …, Damian Smedley, Peter N Robinson, Christopher J Mungall, Melissa A Haendel, Monica C Munoz-Torres
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">Medical Physics</span>
+        <span class="citation-publisher">Nucleic Acids Research</span>
          · 
-        <span class="citation-date">13 Nov 2023</span>
+        <span class="citation-date">24 Nov 2023</span>
          · 
-        <span class="citation-id">doi:10.1002/mp.16820</span>
+        <span class="citation-id">doi:10.1093/nar/gkad1082</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gsvf5z" class="citation-image" aria-label="Integration of 168,000 samples reveals global patterns of the human gut microbiome">
+        <img src="" alt="Integration of 168,000 samples reveals global patterns of the human gut microbiome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsvf5z" class="citation-title">
+        Integration of 168,000 samples reveals global patterns of the human gut microbiome
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Richard J. Abdill, Samantha P. Graham, Vincent Rubinetti, Frank W. Albert, Casey S. Greene, Sean Davis, Ran Blekhman
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">11 Oct 2023</span>
+         · 
+        <span class="citation-id">doi:10.1101/2023.10.11.560955</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gr5hb5" class="citation-image" aria-label="MyGeneset.info: an interactive and programmatic platform for community-curated and user-created collections of genes">
+        <img src="" alt="MyGeneset.info: an interactive and programmatic platform for community-curated and user-created collections of genes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gr5hb5" class="citation-title">
+        MyGeneset.info: an interactive and programmatic platform for community-curated and user-created collections of genes
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ricardo Avila, Vincent Rubinetti, Xinghua Zhou, Dongbo Hu, Zhongchao Qian, Marco Alvarado Cano, Everaldo Rodolpho, Ginger Tsueng, Casey Greene, Chunlei Wu
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nucleic Acids Research</span>
+         · 
+        <span class="citation-date">18 Apr 2023</span>
+         · 
+        <span class="citation-id">doi:10.1093/nar/gkad289</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/grmcb9" class="citation-image" aria-label="Hetnet connectivity search provides rapid insights into how two biomedical entities are related">
+        <img src="" alt="Hetnet connectivity search provides rapid insights into how two biomedical entities are related" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/grmcb9" class="citation-title">
+        Hetnet connectivity search provides rapid insights into how two biomedical entities are related
+      </a>
+
+      <div class="citation-authors" data-tooltip="Daniel S. Himmelstein, Michael Zietz, Vincent Rubinetti, Kyle Kloster, Benjamin J. Heil, Faisal Alquaddoomi, Dongbo Hu, David N. Nicholson, Yun Hao, Blair D. Sullivan, Michael W. Nagle, Casey S. Greene" tabindex="0">
+        Daniel S. Himmelstein, Michael Zietz, Vincent Rubinetti, Kyle Kloster, Benjamin J. Heil, …, David N. Nicholson, Yun Hao, Blair D. Sullivan, Michael W. Nagle, Casey S. Greene
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">07 Jan 2023</span>
+         · 
+        <span class="citation-id">doi:10.1101/2023.01.05.522941</span>
       </div>
 
       
@@ -567,8 +755,8 @@
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/gt385t" class="citation-image" aria-label="Cancellation of streak artifacts in radial abdominal imaging using interference null space projection">
-        <img src="" alt="Cancellation of streak artifacts in radial abdominal imaging using interference null space projection" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/gsd85n" class="citation-image" aria-label="Hetnet connectivity search provides rapid insights into how biomedical entities are related">
+        <img src="" alt="Hetnet connectivity search provides rapid insights into how biomedical entities are related" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -576,21 +764,21 @@
       
       
 
-      <a href="https://doi.org/gt385t" class="citation-title">
-        Cancellation of streak artifacts in radial abdominal imaging using interference null space projection
+      <a href="https://doi.org/gsd85n" class="citation-title">
+        Hetnet connectivity search provides rapid insights into how biomedical entities are related
       </a>
 
-      <div class="citation-authors" tabindex="0">
-        Zhiyang Fu, Kevin Johnson, Maria I. Altbach, Ali Bilgin
+      <div class="citation-authors" data-tooltip="Daniel S Himmelstein, Michael Zietz, Vincent Rubinetti, Kyle Kloster, Benjamin J Heil, Faisal Alquaddoomi, Dongbo Hu, David N Nicholson, Yun Hao, Blair D Sullivan, Michael W Nagle, Casey S Greene" tabindex="0">
+        Daniel S Himmelstein, Michael Zietz, Vincent Rubinetti, Kyle Kloster, Benjamin J Heil, …, David N Nicholson, Yun Hao, Blair D Sullivan, Michael W Nagle, Casey S Greene
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
+        <span class="citation-publisher">GigaScience</span>
          · 
-        <span class="citation-date">24 May 2022</span>
+        <span class="citation-date">28 Dec 2022</span>
          · 
-        <span class="citation-id">doi:10.1002/mrm.29285</span>
+        <span class="citation-id">doi:10.1093/gigascience/giad047</span>
       </div>
 
       
@@ -604,13 +792,11 @@
   </div>
 </div>
 
-<h3 id="2021">2021</h3>
-
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/gt385v" class="citation-image" aria-label="A Stacked Generalization of 3D Orthogonal Deep Learning Convolutional Neural Networks for Improved Detection of White Matter Hyperintensities in 3D FLAIR Images">
-        <img src="" alt="A Stacked Generalization of 3D Orthogonal Deep Learning Convolutional Neural Networks for Improved Detection of White Matter Hyperintensities in 3D FLAIR Images" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/gstx7j" class="citation-image" aria-label="MolEvolvR: A web-app for characterizing proteins using molecular evolution and phylogeny">
+        <img src="" alt="MolEvolvR: A web-app for characterizing proteins using molecular evolution and phylogeny" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -618,21 +804,21 @@
       
       
 
-      <a href="https://doi.org/gt385v" class="citation-title">
-        A Stacked Generalization of 3D Orthogonal Deep Learning Convolutional Neural Networks for Improved Detection of White Matter Hyperintensities in 3D FLAIR Images
+      <a href="https://doi.org/gstx7j" class="citation-title">
+        MolEvolvR: A web-app for characterizing proteins using molecular evolution and phylogeny
       </a>
 
-      <div class="citation-authors" tabindex="0">
-        L. Umapathy, G.G. Perez-Carrillo, M.B. Keerthivasan, J.A. Rosado-Toro, M.I. Altbach, B. Winegar, C. Weinkauf, A. Bilgin
+      <div class="citation-authors" data-tooltip="Jacob D Krol, Joseph T Burke, Samuel Z Chen, Lo M Sosinski, Faisal S Alquaddoomi, Evan P Brenner, Ethan P Wolfe, Vincent P Rubinetti, Shaddai Amolitos, Kellen M Reason, John B Johnston, Janani Ravi" tabindex="0">
+        Jacob D Krol, Joseph T Burke, Samuel Z Chen, Lo M Sosinski, Faisal S Alquaddoomi, …, Vincent P Rubinetti, Shaddai Amolitos, Kellen M Reason, John B Johnston, Janani Ravi
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">American Journal of Neuroradiology</span>
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
          · 
-        <span class="citation-date">11 Feb 2021</span>
+        <span class="citation-date">22 Feb 2022</span>
          · 
-        <span class="citation-id">doi:10.3174/ajnr.A6970</span>
+        <span class="citation-id">doi:10.1101/2022.02.18.461833</span>
       </div>
 
       
@@ -651,8 +837,117 @@
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/gq6bmw" class="citation-image" aria-label="Fully Automated Segmentation of Globes for Volume Quantification in CT Images of Orbits using Deep Learning">
-        <img src="" alt="Fully Automated Segmentation of Globes for Volume Quantification in CT Images of Orbits using Deep Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/c7np" class="citation-image" aria-label="Open collaborative writing with Manubot">
+        <img src="https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&amp;rev=2" alt="Open collaborative writing with Manubot" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/c7np" class="citation-title">
+        Open collaborative writing with Manubot
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLOS Computational Biology</span>
+         · 
+        <span class="citation-date">04 Dec 2020</span>
+         · 
+        <span class="citation-id">doi:10.1371/journal.pcbi.1007128</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            Lorem ipsum <em>dolor</em> <strong>sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://greenelab.github.io/meta-review/" data-tooltip="Manubot" data-style="bare" aria-label="Manubot">
+      <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="-450 -250 900 500">  <g transform="scale(0.9)">    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        M -125 125         L -125 -125        L 0 45        L 125 -125        L 125 125      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        M -200 -250        L -330 0         L -200 250      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        m 200 250         L 330 0        L 200 -250      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="50" d="        M -330 0        L -370 0      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="50" d="        M 330 0        L 370 0      "></path>    <circle cx="-455" cy="0" r="30" fill="none" stroke="currentColor" stroke-width="30"></circle>    <circle cx="455" cy="0" r="30" fill="none" stroke="currentColor" stroke-width="30"></circle>  </g></svg></span>
+      
+        <span>Manubot</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/greenelab/meta-review" data-tooltip="Source code" data-style="bare" aria-label="Source code">
+      <i class="icon fa-solid fa-code"></i>
+      
+        <span>Manuscript Source</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="http://manubot.org/" data-tooltip="Website" data-style="bare" aria-label="Website">
+      <i class="icon fa-solid fa-globe"></i>
+      
+        <span>Website</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+            
+<div class="tags" data-repo="greenelab/meta-review" data-link="/research/">
+  
+  <a href="/research/?search=%22tag:%20open-science%22" class="tag" data-tooltip='Show items with the tag "open-science"'>
+    open-science
+  </a>
+  
+  <a href="/research/?search=%22tag:%20collaboration%22" class="tag" data-tooltip='Show items with the tag "collaboration"'>
+    collaboration
+  </a>
+  
+</div>
+
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gg2mjh" class="citation-image" aria-label="Compressing gene expression data using multiple latent space dimensionalities learns complementary biological representations">
+        <img src="" alt="Compressing gene expression data using multiple latent space dimensionalities learns complementary biological representations" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -660,21 +955,21 @@
       
       
 
-      <a href="https://doi.org/gq6bmw" class="citation-title">
-        Fully Automated Segmentation of Globes for Volume Quantification in CT Images of Orbits using Deep Learning
+      <a href="https://doi.org/gg2mjh" class="citation-title">
+        Compressing gene expression data using multiple latent space dimensionalities learns complementary biological representations
       </a>
 
       <div class="citation-authors" tabindex="0">
-        L. Umapathy, B. Winegar, L. MacKinnon, M. Hill, M.I. Altbach, J.M. Miller, A. Bilgin
+        Gregory P. Way, Michael Zietz, Vincent Rubinetti, Daniel S. Himmelstein, Casey S. Greene
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">American Journal of Neuroradiology</span>
+        <span class="citation-publisher">Genome Biology</span>
          · 
-        <span class="citation-date">21 May 2020</span>
+        <span class="citation-date">11 May 2020</span>
          · 
-        <span class="citation-id">doi:10.3174/ajnr.A6538</span>
+        <span class="citation-id">doi:10.1186/s13059-020-02021-3</span>
       </div>
 
       
@@ -691,8 +986,8 @@
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/gt385w" class="citation-image" aria-label="Visibility of quantization errors in reversible JPEG2000">
-        <img src="" alt="Visibility of quantization errors in reversible JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/gg7m48" class="citation-image" aria-label="Constructing knowledge graphs and their biomedical applications">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg" alt="Constructing knowledge graphs and their biomedical applications" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -700,21 +995,63 @@
       
       
 
-      <a href="https://doi.org/gt385w" class="citation-title">
-        Visibility of quantization errors in reversible JPEG2000
+      <a href="https://doi.org/gg7m48" class="citation-title">
+        Constructing knowledge graphs and their biomedical applications
       </a>
 
       <div class="citation-authors" tabindex="0">
-        Feng Liu, Eze Ahanonu, Michael W. Marcellin, Yuzhang Lin, Amit Ashok, Ali Bilgin
+        David N. Nicholson, Casey S. Greene
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">Signal Processing: Image Communication</span>
+        <span class="citation-publisher">Computational and Structural Biotechnology Journal</span>
          · 
-        <span class="citation-date">01 May 2020</span>
+        <span class="citation-date">01 Jan 2020</span>
          · 
-        <span class="citation-id">doi:10.1016/j.image.2020.115812</span>
+        <span class="citation-id">doi:10.1016/j.csbj.2020.05.017</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2019">2019</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gfxjxf" class="citation-image" aria-label="Sequential compression of gene expression across dimensionalities and methods reveals no single best method or dimensionality">
+        <img src="" alt="Sequential compression of gene expression across dimensionalities and methods reveals no single best method or dimensionality" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gfxjxf" class="citation-title">
+        Sequential compression of gene expression across dimensionalities and methods reveals no single best method or dimensionality
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Gregory P. Way, Michael Zietz, Vincent Rubinetti, Daniel S. Himmelstein, Casey S. Greene
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">11 Mar 2019</span>
+         · 
+        <span class="citation-id">doi:10.1101/573782</span>
       </div>
 
       
@@ -733,8 +1070,8 @@
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/gd46d9" class="citation-image" aria-label="Clinical Utility of a Novel Ultrafast T2-Weighted Sequence for Spine Imaging">
-        <img src="" alt="Clinical Utility of a Novel Ultrafast T2-Weighted Sequence for Spine Imaging" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/ckcj" class="citation-image" aria-label="Sci-Hub provides access to nearly all scholarly literature">
+        <img src="https://iiif.elifesciences.org/lax:32822/elife-32822-fig8-v3.tif/full/863,/0/default.webp" alt="Sci-Hub provides access to nearly all scholarly literature" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -742,2615 +1079,21 @@
       
       
 
-      <a href="https://doi.org/gd46d9" class="citation-title">
-        Clinical Utility of a Novel Ultrafast T2-Weighted Sequence for Spine Imaging
+      <a href="https://doi.org/ckcj" class="citation-title">
+        Sci-Hub provides access to nearly all scholarly literature
       </a>
 
       <div class="citation-authors" tabindex="0">
-        M.B. Keerthivasan, B. Winegar, J.L. Becker, A. Bilgin, M.I. Altbach, M. Saranathan
+        Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">American Journal of Neuroradiology</span>
+        <span class="citation-publisher">eLife</span>
          · 
-        <span class="citation-date">12 Jul 2018</span>
+        <span class="citation-date">01 Mar 2018</span>
          · 
-        <span class="citation-id">doi:10.3174/ajnr.A5713</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2014">2014</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gt386h" class="citation-image" aria-label="High‐resolution, large dynamic range field map estimation">
-        <img src="" alt="High‐resolution, large dynamic range field map estimation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/gt386h" class="citation-title">
-        High‐resolution, large dynamic range field map estimation
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Joseph Dagher, Timothy Reese, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
-         · 
-        <span class="citation-date">01 Jan 2014</span>
-         · 
-        <span class="citation-id">doi:http://dx.doi.org/10.1002/mrm.24636</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2012">2012</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/ghppnm" class="citation-image" aria-label="&lt;i&gt;T&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; relaxometry with indirect echo compensation from highly undersampled data">
-        <img src="" alt="&lt;i&gt;T&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; relaxometry with indirect echo compensation from highly undersampled data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/ghppnm" class="citation-title">
-        <i>T</i><sub>2</sub> relaxometry with indirect echo compensation from highly undersampled data
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Chuan Huang, Ali Bilgin, Tomoe Barr, Maria I. Altbach
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
-         · 
-        <span class="citation-date">19 Nov 2012</span>
-         · 
-        <span class="citation-id">doi:10.1002/mrm.24540</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/f3zvb3" class="citation-image" aria-label="Wavelet-Based Compressed Sensing Using a Gaussian Scale Mixture Model">
-        <img src="" alt="Wavelet-Based Compressed Sensing Using a Gaussian Scale Mixture Model" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/f3zvb3" class="citation-title">
-        Wavelet-Based Compressed Sensing Using a Gaussian Scale Mixture Model
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Yookyung Kim, Mariappan S. Nadar, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Jun 2012</span>
-         · 
-        <span class="citation-id">doi:10.1109/TIP.2012.2188807</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gq8t9z" class="citation-image" aria-label="Compressive sensing of frequency-hopping spread spectrum signals">
-        <img src="" alt="Compressive sensing of frequency-hopping spread spectrum signals" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/gq8t9z" class="citation-title">
-        Compressive sensing of frequency-hopping spread spectrum signals
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Feng Liu, Yookyung Kim, Nathan A. Goodman, Amit Ashok, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Compressive Sensing</span>
-         · 
-        <span class="citation-date">01 Jun 2012</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.919561</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/fzpwc2" class="citation-image" aria-label="A field map estimation strategy without the noise-bandwidth tradeoff">
-        <img src="" alt="A field map estimation strategy without the noise-bandwidth tradeoff" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/fzpwc2" class="citation-title">
-        A field map estimation strategy without the noise-bandwidth tradeoff
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Joseph Dagher, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">23 Feb 2012</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.911026</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2011">2011</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/fxxq4z" class="citation-image" aria-label="Visually lossless JPEG2000 at fractional resolutions">
-        <img src="" alt="Visually lossless JPEG2000 at fractional resolutions" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/fxxq4z" class="citation-title">
-        Visually lossless JPEG2000 at fractional resolutions
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Han Oh, Ali Bilgin, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2011 18th IEEE International Conference on Image Processing</span>
-         · 
-        <span class="citation-date">01 Sep 2011</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICIP.2011.6116321</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/fzs7rb" class="citation-image" aria-label="Dynamic compressive magnetic resonance imaging using a Gaussian scale mixtures model">
-        <img src="" alt="Dynamic compressive magnetic resonance imaging using a Gaussian scale mixtures model" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/fzs7rb" class="citation-title">
-        Dynamic compressive magnetic resonance imaging using a Gaussian scale mixtures model
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Yookyung Kim, Mariappan S. Nadar, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2011 18th IEEE International Conference on Image Processing</span>
-         · 
-        <span class="citation-date">01 Sep 2011</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICIP.2011.6116097</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bgb42s" class="citation-image" aria-label="&lt;i&gt;T&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; mapping from highly undersampled data by reconstruction of principal component coefficient maps using compressed sensing">
-        <img src="" alt="&lt;i&gt;T&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; mapping from highly undersampled data by reconstruction of principal component coefficient maps using compressed sensing" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bgb42s" class="citation-title">
-        <i>T</i><sub>2</sub> mapping from highly undersampled data by reconstruction of principal component coefficient maps using compressed sensing
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Chuan Huang, Christian G. Graff, Eric W. Clarkson, Ali Bilgin, Maria I. Altbach
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
-         · 
-        <span class="citation-date">16 Aug 2011</span>
-         · 
-        <span class="citation-id">doi:10.1002/mrm.23128</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dmb73f" class="citation-image" aria-label="FAST Rate Allocation Through Steepest Descent for JPEG2000 Video Transmission">
-        <img src="" alt="FAST Rate Allocation Through Steepest Descent for JPEG2000 Video Transmission" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dmb73f" class="citation-title">
-        FAST Rate Allocation Through Steepest Descent for JPEG2000 Video Transmission
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        F Aulì-Llinàs, A Bilgin, M W Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Apr 2011</span>
-         · 
-        <span class="citation-id">doi:10.1109/TIP.2010.2077304</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/frhdjz" class="citation-image" aria-label="Model-based compressive diffusion tensor imaging">
-        <img src="" alt="Model-based compressive diffusion tensor imaging" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/frhdjz" class="citation-title">
-        Model-based compressive diffusion tensor imaging
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Lingling Pu, Theodore P. Trouard, Lee Ryan, Chuan Huang, Maria I. Altbach, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2011 IEEE International Symposium on Biomedical Imaging: From Nano to Macro</span>
-         · 
-        <span class="citation-date">01 Mar 2011</span>
-         · 
-        <span class="citation-id">doi:10.1109/ISBI.2011.5872400</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2010">2010</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/c4wd5f" class="citation-image" aria-label="Multi-resolution visually lossless image coding using JPEG2000">
-        <img src="" alt="Multi-resolution visually lossless image coding using JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/c4wd5f" class="citation-title">
-        Multi-resolution visually lossless image coding using JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Han Oh, Ali Bilgin, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2010 IEEE International Conference on Image Processing</span>
-         · 
-        <span class="citation-date">01 Sep 2010</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICIP.2010.5651762</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/cbrzxb" class="citation-image" aria-label="Compressed sensing using a Gaussian Scale Mixtures model in wavelet domain">
-        <img src="" alt="Compressed sensing using a Gaussian Scale Mixtures model in wavelet domain" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/cbrzxb" class="citation-title">
-        Compressed sensing using a Gaussian Scale Mixtures model in wavelet domain
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Yoo Kim, Mariappan S. Nadar, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2010 IEEE International Conference on Image Processing</span>
-         · 
-        <span class="citation-date">01 Sep 2010</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICIP.2010.5652744</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dqv59b" class="citation-image" aria-label="Motion-compensated compressed sensing for dynamic imaging">
-        <img src="" alt="Motion-compensated compressed sensing for dynamic imaging" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dqv59b" class="citation-title">
-        Motion-compensated compressed sensing for dynamic imaging
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Rajagopalan Sundaresan, Yookyung Kim, Mariappan S. Nadar, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">19 Aug 2010</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.861113</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/ft87q9" class="citation-image" aria-label="Exploiting Wavelet-Domain Dependencies in Compressed Sensing">
-        <img src="" alt="Exploiting Wavelet-Domain Dependencies in Compressed Sensing" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/ft87q9" class="citation-title">
-        Exploiting Wavelet-Domain Dependencies in Compressed Sensing
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Yookyung Kim, Mariappan S. Nadar, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2010 Data Compression Conference</span>
-         · 
-        <span class="citation-date">01 Jan 2010</span>
-         · 
-        <span class="citation-id">doi:10.1109/DCC.2010.51</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2009">2009</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dz9kbh" class="citation-image" aria-label="Hill climbing algorithm for the transmission of layered jpeg2000 video under multiple rate constraints">
-        <img src="" alt="Hill climbing algorithm for the transmission of layered jpeg2000 video under multiple rate constraints" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dz9kbh" class="citation-title">
-        Hill climbing algorithm for the transmission of layered jpeg2000 video under multiple rate constraints
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Francesc Auli-Llinas, Han Oh, Ali Bilgin, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2009 16th IEEE International Conference on Image Processing (ICIP)</span>
-         · 
-        <span class="citation-date">01 Nov 2009</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICIP.2009.5413972</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/fbhpz7" class="citation-image" aria-label="Visibility thresholds for quantization distortion in JPEG2000">
-        <img src="" alt="Visibility thresholds for quantization distortion in JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/fbhpz7" class="citation-title">
-        Visibility thresholds for quantization distortion in JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Han Oh, Ali Bilgin, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2009 International Workshop on Quality of Multimedia Experience</span>
-         · 
-        <span class="citation-date">01 Jul 2009</span>
-         · 
-        <span class="citation-id">doi:10.1109/QOMEX.2009.5246948</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/cw423v" class="citation-image" aria-label="View Compensated Compression of Volume Rendered Images for Remote Visualization">
-        <img src="" alt="View Compensated Compression of Volume Rendered Images for Remote Visualization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/cw423v" class="citation-title">
-        View Compensated Compression of Volume Rendered Images for Remote Visualization
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        H.G. Lalgudi, M.W. Marcellin, A. Bilgin, H. Oh, M.S. Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Jul 2009</span>
-         · 
-        <span class="citation-id">doi:10.1109/TIP.2009.2017151</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/ff8bvd" class="citation-image" aria-label="Rapid water and lipid imaging with &lt;i&gt;T&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; mapping using a radial IDEAL‐GRASE technique">
-        <img src="" alt="Rapid water and lipid imaging with &lt;i&gt;T&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; mapping using a radial IDEAL‐GRASE technique" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/ff8bvd" class="citation-title">
-        Rapid water and lipid imaging with <i>T</i><sub>2</sub> mapping using a radial IDEAL‐GRASE technique
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Zhiqiang Li, Christian Graff, Arthur F. Gmitro, Scott W. Squire, Ali Bilgin, Eric K. Outwater, Maria I. Altbach
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
-         · 
-        <span class="citation-date">07 Apr 2009</span>
-         · 
-        <span class="citation-id">doi:10.1002/mrm.21918</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/c3tdjs" class="citation-image" aria-label="Improved Resolution Scalability for Bilevel Image Data in JPEG2000">
-        <img src="" alt="Improved Resolution Scalability for Bilevel Image Data in JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/c3tdjs" class="citation-title">
-        Improved Resolution Scalability for Bilevel Image Data in JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        R. Raguram, M.W. Marcellin, A. Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Apr 2009</span>
-         · 
-        <span class="citation-id">doi:10.1109/TIP.2008.2011455</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bbpp42" class="citation-image" aria-label="Visually lossless JPEG2000 using adaptive visibility thresholds and visual masking effects">
-        <img src="" alt="Visually lossless JPEG2000 using adaptive visibility thresholds and visual masking effects" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bbpp42" class="citation-title">
-        Visually lossless JPEG2000 using adaptive visibility thresholds and visual masking effects
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Han Oh, Ali Bilgin, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2009 Conference Record of the Forty-Third Asilomar Conference on Signals, Systems and Computers</span>
-         · 
-        <span class="citation-date">01 Jan 2009</span>
-         · 
-        <span class="citation-id">doi:10.1109/ACSSC.2009.5469894</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2008">2008</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/d49783" class="citation-image" aria-label="Scalable low complexity image coder for remote volume visualization">
-        <img src="" alt="Scalable low complexity image coder for remote volume visualization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/d49783" class="citation-title">
-        Scalable low complexity image coder for remote volume visualization
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Hariharan G. Lalgudi, Michael W. Marcellin, Ali Bilgin, Mariappan S. Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Applications of Digital Image Processing XXXI</span>
-         · 
-        <span class="citation-date">28 Aug 2008</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.794430</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dsjjfb" class="citation-image" aria-label="Parallel magnetic resonance imaging using compressed sensing">
-        <img src="" alt="Parallel magnetic resonance imaging using compressed sensing" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dsjjfb" class="citation-title">
-        Parallel magnetic resonance imaging using compressed sensing
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Ali Bilgin, Yookyung Kim, Hariharan G. Lalgudi, Theodore P. Trouard, Maria I. Altbach
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Applications of Digital Image Processing XXXI</span>
-         · 
-        <span class="citation-date">28 Aug 2008</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.797206</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bfc7gc" class="citation-image" aria-label="Multi-dimensional Compression Using JPEG2000">
-        <img src="" alt="Multi-dimensional Compression Using JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bfc7gc" class="citation-title">
-        Multi-dimensional Compression Using JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Hariharan G. Lalgudi, Ali Bilgin, Michael W. Marcellin, Mariappan S. Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Data Compression Conference (dcc 2008)</span>
-         · 
-        <span class="citation-date">01 Mar 2008</span>
-         · 
-        <span class="citation-id">doi:10.1109/DCC.2008.27</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/czqssn" class="citation-image" aria-label="Lifting-Based View Compensated Compression of Volume Rendered Images for Efficient Remote Visualization">
-        <img src="" alt="Lifting-Based View Compensated Compression of Volume Rendered Images for Efficient Remote Visualization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/czqssn" class="citation-title">
-        Lifting-Based View Compensated Compression of Volume Rendered Images for Efficient Remote Visualization
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Hariharan G. Lalgudi, Michael W. Marcellin, Ali Bilgin, Mariappan S. Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Data Compression Conference (dcc 2008)</span>
-         · 
-        <span class="citation-date">01 Mar 2008</span>
-         · 
-        <span class="citation-id">doi:10.1109/DCC.2008.29</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/d386zk" class="citation-image" aria-label="Compression of Multidimensional Images Using JPEG2000">
-        <img src="" alt="Compression of Multidimensional Images Using JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/d386zk" class="citation-title">
-        Compression of Multidimensional Images Using JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        H.G. Lalgudi, A. Bilgin, M.W. Marcellin, M.S. Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Signal Processing Letters</span>
-         · 
-        <span class="citation-date">01 Jan 2008</span>
-         · 
-        <span class="citation-id">doi:10.1109/LSP.2008.922285</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2007">2007</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/d5bdw3" class="citation-image" aria-label="Error Resilient Decoding of JPEG2000">
-        <img src="" alt="Error Resilient Decoding of JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/d5bdw3" class="citation-title">
-        Error Resilient Decoding of JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Zhenyu Wu, A. Bilgin, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Circuits and Systems for Video Technology</span>
-         · 
-        <span class="citation-date">01 Dec 2007</span>
-         · 
-        <span class="citation-id">doi:10.1109/TCSVT.2007.904534</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/d5qps4" class="citation-image" aria-label="Joint Source-Channel Rate Allocation in Parallel Channels">
-        <img src="" alt="Joint Source-Channel Rate Allocation in Parallel Channels" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/d5qps4" class="citation-title">
-        Joint Source-Channel Rate Allocation in Parallel Channels
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Lingling Pu, M.W. Marcellin, I. Djordjevic, B. Vasic, A. Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Aug 2007</span>
-         · 
-        <span class="citation-id">doi:10.1109/TIP.2007.901810</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/fwb5kx" class="citation-image" aria-label="Fast decomposition of water and lipid using a GRASE technique with the IDEAL algorithm">
-        <img src="" alt="Fast decomposition of water and lipid using a GRASE technique with the IDEAL algorithm" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/fwb5kx" class="citation-title">
-        Fast decomposition of water and lipid using a GRASE technique with the IDEAL algorithm
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Zhiqiang Li, Arthur F. Gmitro, Ali Bilgin, Maria I. Altbach
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
-         · 
-        <span class="citation-date">29 May 2007</span>
-         · 
-        <span class="citation-id">doi:10.1002/mrm.21232</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/ckc3kt" class="citation-image" aria-label="Unequal error protection and progressive decoding for JPEG2000">
-        <img src="" alt="Unequal error protection and progressive decoding for JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/ckc3kt" class="citation-title">
-        Unequal error protection and progressive decoding for JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Lingling Pu, Michael W. Marcellin, Bane Vasic, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Signal Processing: Image Communication</span>
-         · 
-        <span class="citation-date">01 Mar 2007</span>
-         · 
-        <span class="citation-id">doi:10.1016/j.image.2006.12.007</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bsqwgn" class="citation-image" aria-label="LDPC-Based Iterative Joint Source-Channel Decoding for JPEG2000">
-        <img src="" alt="LDPC-Based Iterative Joint Source-Channel Decoding for JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bsqwgn" class="citation-title">
-        LDPC-Based Iterative Joint Source-Channel Decoding for JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Lingling Pu, Zhenyu Wu, Ali Bilgin, Michael W. Marcellin, Bane Vasic
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Feb 2007</span>
-         · 
-        <span class="citation-id">doi:10.1109/TIP.2006.888329</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bknjx3" class="citation-image" aria-label="Improved Resolution Scalability for Bi-Level Image Data in JPEG2000">
-        <img src="" alt="Improved Resolution Scalability for Bi-Level Image Data in JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bknjx3" class="citation-title">
-        Improved Resolution Scalability for Bi-Level Image Data in JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Rahul Raguram, Michael W. Marcellin, Ali Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2007 Data Compression Conference (DCC'07)</span>
-         · 
-        <span class="citation-date">01 Jan 2007</span>
-         · 
-        <span class="citation-id">doi:10.1109/DCC.2007.48</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2006">2006</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bh9qhx" class="citation-image" aria-label="Efficient transmission of compressed data for remote volume visualization">
-        <img src="" alt="Efficient transmission of compressed data for remote volume visualization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bh9qhx" class="citation-title">
-        Efficient transmission of compressed data for remote volume visualization
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        K. Krishnan, M.W. Marcellin, A. Bilgin, M.S. Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Medical Imaging</span>
-         · 
-        <span class="citation-date">01 Sep 2006</span>
-         · 
-        <span class="citation-id">doi:10.1109/TMI.2006.879956</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2005">2005</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/d3bfmx" class="citation-image" aria-label="Interleaved acquisition of lipid and water images of the heart using a double‐inversion fast spin‐echo method">
-        <img src="" alt="Interleaved acquisition of lipid and water images of the heart using a double‐inversion fast spin‐echo method" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/d3bfmx" class="citation-title">
-        Interleaved acquisition of lipid and water images of the heart using a double‐inversion fast spin‐echo method
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Maria I. Altbach, Zhiqiang Li, Ali Bilgin, Frank I. Marcus, Vincent L. Sorrell, Arthur F. Gmitro, David A. Bluemke
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
-         · 
-        <span class="citation-date">10 Oct 2005</span>
-         · 
-        <span class="citation-id">doi:10.1002/mrm.20691</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bbxd89" class="citation-image" aria-label="Joint Source/Channel Coding for Multiple Images">
-        <img src="" alt="Joint Source/Channel Coding for Multiple Images" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bbxd89" class="citation-title">
-        Joint Source/Channel Coding for Multiple Images
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Z. Wu, A. Bilgin, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Communications</span>
-         · 
-        <span class="citation-date">01 Oct 2005</span>
-         · 
-        <span class="citation-id">doi:10.1109/TCOMM.2005.857142</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/cr8q33" class="citation-image" aria-label="Processing of radial fast spin‐echo data for obtaining T&lt;sub&gt;2&lt;/sub&gt; estimates from a single k‐space data set">
-        <img src="" alt="Processing of radial fast spin‐echo data for obtaining T&lt;sub&gt;2&lt;/sub&gt; estimates from a single k‐space data set" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/cr8q33" class="citation-title">
-        Processing of radial fast spin‐echo data for obtaining T<sub>2</sub> estimates from a single k‐space data set
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Maria I. Altbach, Ali Bilgin, Zhiqiang Li, Eric W. Clarkson, Theodore P. Trouard, Arthur F. Gmitro
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Magnetic Resonance in Medicine</span>
-         · 
-        <span class="citation-date">05 Aug 2005</span>
-         · 
-        <span class="citation-id">doi:10.1002/mrm.20611</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/crxgjn" class="citation-image" aria-label="Joint source/channel coding for image transmission with JPEG2000 over memoryless channels">
-        <img src="" alt="Joint source/channel coding for image transmission with JPEG2000 over memoryless channels" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/crxgjn" class="citation-title">
-        Joint source/channel coding for image transmission with JPEG2000 over memoryless channels
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Zhenyu Wu, A. Bilgin, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Aug 2005</span>
-         · 
-        <span class="citation-id">doi:10.1109/TIP.2005.851681</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/cw5d5b" class="citation-image" aria-label="Four-dimensional compression of fMRI using JPEG2000">
-        <img src="" alt="Four-dimensional compression of fMRI using JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/cw5d5b" class="citation-title">
-        Four-dimensional compression of fMRI using JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Hariharan G. Lalgudi, Ali Bilgin, Michael W. Marcellin, Ali Tabesh, Mariappan S. Nadar, Theodore P. Trouard
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">29 Apr 2005</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.595885</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/fb3hk4" class="citation-image" aria-label="&lt;title&gt;Prioritization of compressed data by tissue type using JPEG2000&lt;/title&gt;">
-        <img src="" alt="&lt;title&gt;Prioritization of compressed data by tissue type using JPEG2000&lt;/title&gt;" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/fb3hk4" class="citation-title">
-        &lt;title&gt;Prioritization of compressed data by tissue type using JPEG2000&lt;/title&gt;
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Karthik Krishnan, Michael W. Marcellin, Ali Bilgin, Mariappan Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">15 Apr 2005</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.594914</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/d7th7b" class="citation-image" aria-label="&lt;title&gt;Compression of multislice CT: 2D vs. 3D JPEG2000 and effects of slice thickness&lt;/title&gt;">
-        <img src="" alt="&lt;title&gt;Compression of multislice CT: 2D vs. 3D JPEG2000 and effects of slice thickness&lt;/title&gt;" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/d7th7b" class="citation-title">
-        &lt;title&gt;Compression of multislice CT: 2D vs. 3D JPEG2000 and effects of slice thickness&lt;/title&gt;
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Eliot Siegel, Khan Siddiqui, Jeffrey Johnson, Olivier Crave, Zhenyu Wu, Joseph Dagher, Ali Bilgin, Michael Marcellin, Mariappan Nadar, Bruce Reiner
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">15 Apr 2005</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.596037</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/b3qstg" class="citation-image" aria-label="Reduced memory multi-layer multi-component rate allocation for JPEG2000">
-        <img src="" alt="Reduced memory multi-layer multi-component rate allocation for JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/b3qstg" class="citation-title">
-        Reduced memory multi-layer multi-component rate allocation for JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Prajit Kulkarni, Ali Bilgin, Michael W. Marcellin, Joseph C. Dagher, Thomas Flohr, Janet Rountree
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">14 Mar 2005</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.584776</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/cnmdhm" class="citation-image" aria-label="Unequal error protection and progressive decoding for JPEG2000">
-        <img src="" alt="Unequal error protection and progressive decoding for JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/cnmdhm" class="citation-title">
-        Unequal error protection and progressive decoding for JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Lingling Pu, M.W. Marcellin, B. Vasic, A. Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE International Conference on Image Processing 2005</span>
-         · 
-        <span class="citation-date">01 Jan 2005</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICIP.2005.1530537</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dwzn76" class="citation-image" aria-label="Error concealment for motion JPEG2000">
-        <img src="" alt="Error concealment for motion JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dwzn76" class="citation-title">
-        Error concealment for motion JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        L. Atzori, A. Bilgin, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE International Conference on Image Processing 2005</span>
-         · 
-        <span class="citation-date">01 Jan 2005</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICIP.2005.1529867</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bwddms" class="citation-image" aria-label="Compression of fMRI and ultrasound images using 4D SPIHT">
-        <img src="" alt="Compression of fMRI and ultrasound images using 4D SPIHT" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bwddms" class="citation-title">
-        Compression of fMRI and ultrasound images using 4D SPIHT
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        H.G. Lalgudi, A. Bilgin, M.W. Marcellin, M.S. Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE International Conference on Image Processing 2005</span>
-         · 
-        <span class="citation-date">01 Jan 2005</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICIP.2005.1530163</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2004">2004</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/df9k9z" class="citation-image" aria-label="Compression/decompression strategies for large-volume medical imagery">
-        <img src="" alt="Compression/decompression strategies for large-volume medical imagery" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/df9k9z" class="citation-title">
-        Compression/decompression strategies for large-volume medical imagery
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Karthik Krishnan, Michael W. Marcellin, Ali Bilgin, Mariappan S. Nadar
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">19 Apr 2004</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.535650</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/crp8mw" class="citation-image" aria-label="Robust transmission of JPEG2000 codestreams over packet erasure channels">
-        <img src="" alt="Robust transmission of JPEG2000 codestreams over packet erasure channels" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/crp8mw" class="citation-title">
-        Robust transmission of JPEG2000 codestreams over packet erasure channels
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Zhenyu Wu, Ali Bilgin, Lingling Pu, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">07 Jan 2004</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.526014</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2003">2003</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bztg7d" class="citation-image" aria-label="Resource-constrained rate control for motion JPEG2000">
-        <img src="" alt="Resource-constrained rate control for motion JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bztg7d" class="citation-title">
-        Resource-constrained rate control for motion JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        J.C. Dagher, A. Bilgin, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Dec 2003</span>
-         · 
-        <span class="citation-id">doi:10.1109/TIP.2003.819228</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bs2mcj" class="citation-image" aria-label="Compression of electrocardiogram signals using JPEG2000">
-        <img src="" alt="Compression of electrocardiogram signals using JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bs2mcj" class="citation-title">
-        Compression of electrocardiogram signals using JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        A. Bilgin, M.W. Marcellin, M.I. Altbach
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Consumer Electronics</span>
-         · 
-        <span class="citation-date">01 Nov 2003</span>
-         · 
-        <span class="citation-id">doi:10.1109/TCE.2003.1261162</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/fhxvj4" class="citation-image" aria-label="Transmission of JPEG2000 codestreams over packet erasure channels">
-        <img src="" alt="Transmission of JPEG2000 codestreams over packet erasure channels" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/fhxvj4" class="citation-title">
-        Transmission of JPEG2000 codestreams over packet erasure channels
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Ali Bilgin, Zhenyu Wu, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">07 May 2003</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.476633</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/b66vs3" class="citation-image" aria-label="JPEG2000">
-        <img src="" alt="JPEG2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/b66vs3" class="citation-title">
-        JPEG2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Ali Bilgin, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Lossless Compression Handbook</span>
-         · 
-        <span class="citation-date">01 Jan 2003</span>
-         · 
-        <span class="citation-id">doi:10.1016/B978-012620861-0/50019-X</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2002">2002</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/cddm3t" class="citation-image" aria-label="Rate control for multisequence video streaming">
-        <img src="" alt="Rate control for multisequence video streaming" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/cddm3t" class="citation-title">
-        Rate control for multisequence video streaming
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Joseph C. Dagher, Ali Bilgin, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">07 Jan 2002</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.453060</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dt96xz" class="citation-image" aria-label="Packetization of JPEG2000 codestreams">
-        <img src="" alt="Packetization of JPEG2000 codestreams" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dt96xz" class="citation-title">
-        Packetization of JPEG2000 codestreams
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Ali Bilgin, Zhenyu Wu, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">07 Jan 2002</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.453104</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bt9wr7" class="citation-image" aria-label="An overview of quantization in JPEG 2000">
-        <img src="" alt="An overview of quantization in JPEG 2000" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bt9wr7" class="citation-title">
-        An overview of quantization in JPEG 2000
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Michael W. Marcellin, Margaret A. Lepley, Ali Bilgin, Thomas J. Flohr, Troy T. Chinen, James H. Kasner
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Signal Processing: Image Communication</span>
-         · 
-        <span class="citation-date">01 Jan 2002</span>
-         · 
-        <span class="citation-id">doi:10.1016/S0923-5965(01)00027-3</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2001">2001</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/b3srzj" class="citation-image" aria-label="&lt;title&gt;Efficient rate control for video streaming&lt;/title&gt;">
-        <img src="" alt="&lt;title&gt;Efficient rate control for video streaming&lt;/title&gt;" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/b3srzj" class="citation-title">
-        &lt;title&gt;Efficient rate control for video streaming&lt;/title&gt;
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Joseph C. Dagher, Ali Bilgin, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">07 Dec 2001</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.449759</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/c5242x" class="citation-image" aria-label="Quantifying the parent-child coding gain in zero-tree-based coders">
-        <img src="" alt="Quantifying the parent-child coding gain in zero-tree-based coders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/c5242x" class="citation-title">
-        Quantifying the parent-child coding gain in zero-tree-based coders
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        M.W. Marcellin, A. Bilgin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Signal Processing Letters</span>
-         · 
-        <span class="citation-date">01 Mar 2001</span>
-         · 
-        <span class="citation-id">doi:10.1109/97.905942</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2000">2000</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/cgkmmj" class="citation-image" aria-label="JPEG-2000 compression using 3D wavelets and KLT with application to HYDICE data">
-        <img src="" alt="JPEG-2000 compression using 3D wavelets and KLT with application to HYDICE data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/cgkmmj" class="citation-title">
-        JPEG-2000 compression using 3D wavelets and KLT with application to HYDICE data
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        James H. Kasner, Ali Bilgin, Michael W. Marcellin, Austin Lan, Bernard V. Brower, Sylvia S. Shen, Timothy S. Wilkinson
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">15 Nov 2000</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.406584</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bbj9mg" class="citation-image" aria-label="Three-dimensional image compression with integer wavelet transforms">
-        <img src="" alt="Three-dimensional image compression with integer wavelet transforms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bbj9mg" class="citation-title">
-        Three-dimensional image compression with integer wavelet transforms
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Ali Bilgin, George Zweig, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Applied Optics</span>
-         · 
-        <span class="citation-date">10 Apr 2000</span>
-         · 
-        <span class="citation-id">doi:http://dx.doi.org/10.1364/ao.39.001799</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/b563sq" class="citation-image" aria-label="Scalable image coding using reversible integer wavelet transforms">
-        <img src="" alt="Scalable image coding using reversible integer wavelet transforms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/b563sq" class="citation-title">
-        Scalable image coding using reversible integer wavelet transforms
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        A. Bilgin, J. Sementilli,  Fang Sheng, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Jan 2000</span>
-         · 
-        <span class="citation-id">doi:10.1109/83.877218</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dvqkwc" class="citation-image" aria-label="Lapped nonlinear interpolative vector quantization and image super-resolution">
-        <img src="" alt="Lapped nonlinear interpolative vector quantization and image super-resolution" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dvqkwc" class="citation-title">
-        Lapped nonlinear interpolative vector quantization and image super-resolution
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        D.G. Sheppard, K. Panchapakesan, A. Bilgin, B.R. Hunt, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Jan 2000</span>
-         · 
-        <span class="citation-id">doi:10.1109/83.821746</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="1999">1999</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dgjv5q" class="citation-image" aria-label="Progressive image coding using trellis coded quantization">
-        <img src="" alt="Progressive image coding using trellis coded quantization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dgjv5q" class="citation-title">
-        Progressive image coding using trellis coded quantization
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        A. Bilgin, P.J. Sementilli, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Jan 1999</span>
-         · 
-        <span class="citation-id">doi:10.1109/83.799891</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="1998">1998</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bb3jx2" class="citation-image" aria-label="&lt;title&gt;Wavelet TCQ: submission to JPEG-2000&lt;/title&gt;">
-        <img src="" alt="&lt;title&gt;Wavelet TCQ: submission to JPEG-2000&lt;/title&gt;" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bb3jx2" class="citation-title">
-        &lt;title&gt;Wavelet TCQ: submission to JPEG-2000&lt;/title&gt;
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Philip J. Sementilli, Ali Bilgin, James H. Kasner, Michael W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">01 Oct 1998</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.323190</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bcrhsm" class="citation-image" aria-label="&lt;title&gt;Combined compression and denoising of images using vector quantization&lt;/title&gt;">
-        <img src="" alt="&lt;title&gt;Combined compression and denoising of images using vector quantization&lt;/title&gt;" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bcrhsm" class="citation-title">
-        &lt;title&gt;Combined compression and denoising of images using vector quantization&lt;/title&gt;
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Kannan Panchapakesan, Ali Bilgin, David G. Sheppard, Michael W. Marcellin, Bobby R. Hunt
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">SPIE Proceedings</span>
-         · 
-        <span class="citation-date">01 Oct 1998</span>
-         · 
-        <span class="citation-id">doi:10.1117/12.323206</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/bhk98t" class="citation-image" aria-label="A vector quantizer for image restoration">
-        <img src="" alt="A vector quantizer for image restoration" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/bhk98t" class="citation-title">
-        A vector quantizer for image restoration
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        D.G. Sheppard, A. Bilgin, M.S. Nadar, B.R. Hunt, M.W. Marcellin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Transactions on Image Processing</span>
-         · 
-        <span class="citation-date">01 Jan 1998</span>
-         · 
-        <span class="citation-id">doi:10.1109/83.650857</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3></h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gt386k" class="citation-image" aria-label="Visually Lossless Compression of Windowed Images | IEEE Conference Publication | IEEE Xplore">
-        <img src="" alt="Visually Lossless Compression of Windowed Images | IEEE Conference Publication | IEEE Xplore" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/gt386k" class="citation-title">
-        Visually Lossless Compression of Windowed Images | IEEE Conference Publication | IEEE Xplore
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">[no publisher info]</span>
-         · 
-        <span class="citation-date">[no date info]</span>
-         · 
-        <span class="citation-id">doi:http://dx.doi.org/10.1109/dcc.2013.84</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gt386j" class="citation-image" aria-label="Visually Lossless Compression of Stereo Images | IEEE Conference Publication | IEEE Xplore">
-        <img src="" alt="Visually Lossless Compression of Stereo Images | IEEE Conference Publication | IEEE Xplore" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/gt386j" class="citation-title">
-        Visually Lossless Compression of Stereo Images | IEEE Conference Publication | IEEE Xplore
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">[no publisher info]</span>
-         · 
-        <span class="citation-date">[no date info]</span>
-         · 
-        <span class="citation-id">doi:http://dx.doi.org/10.1109/dcc.2013.71</span>
+        <span class="citation-id">doi:10.7554/eLife.32822</span>
       </div>
 
       
@@ -3386,7 +1129,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:Altbach-Bilgin's%20Lab" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a class="button" href="mailto:contact@your-lab.com" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -3401,7 +1144,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4196-4036" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0001-8713-9213" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
@@ -3416,7 +1159,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=I25Yns8AAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+    <a class="button" href="https://scholar.google.com/citations?user=ETJoidYAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
       <i class="icon fa-brands fa-google"></i>
       
     </a>
@@ -3431,8 +1174,38 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/dkarakayDESCRIPTION=An%20engaging%201-3%20sentence%20description%20of%20your%20lab." data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+    <a class="button" href="https://github.com/your-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://twitter.com/YourLabHandle" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://youtube.com/YourLabChannel" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
+      <i class="icon fa-brands fa-youtube"></i>
       
     </a>
   </div>
