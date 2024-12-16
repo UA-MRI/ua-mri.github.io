@@ -15,3 +15,4 @@ yarn.lock
 node_modules
 
 *:Zone.Identifier
+_cite/.cache/cache.db
