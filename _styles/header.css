@@ -31,7 +31,6 @@ header a {
 }
 
 .logo > * {
-  width: unset;
   height: 100%;
 }
 
@@ -51,7 +50,7 @@ header a {
 }
 
 .subtitle {
-  opacity: 0.65;
+  opacity: 0.75;
   font-weight: var(--thin);
 }
 
@@ -130,7 +129,6 @@ header[data-big] .home {
 }
 header[data-big] .logo {
   height: 80px;
-  flex-shrink: 0;
 }
 header[data-big] .title-text {
   flex-direction: column;
