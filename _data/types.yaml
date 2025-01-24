@@ -10,7 +10,15 @@ postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
 
+researcher:
+  icon: fa-solid fa-glasses
+  description: Researcher
+
 phd:
+  icon: fa-solid fa-graduation-cap
+  description: PhD Student
+
+alumni:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 

@@ -1,7 +1,7 @@
 ---
 name: Lavanya Umapathy
 description: Postdoc
-role: graduated
+role: alumni
 date: 2023-1-2
-ord: 1
+ord: 2
 ---
