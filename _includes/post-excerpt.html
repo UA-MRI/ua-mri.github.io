@@ -44,7 +44,7 @@
         | default: ""
         | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
         | default: post.excerpt
-        | default: ""
+        | truncatewords: 25
         | strip_html
       %}
       {% assign search = post.content

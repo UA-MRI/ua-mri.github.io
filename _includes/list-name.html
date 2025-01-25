@@ -3,15 +3,7 @@
 {% assign roles = data | group_by: "role" %}
 
 {% for role in roles %}
-  <div class="role-section">
-    {% if role.name == "phd" %}
-      <h2>PhD Students</h2>
-    {% elsif role.name == "researcher" %}
-      <h2>Researchers</h2>
-    {% else %}
-      <h2>{{ role.name | capitalize }}</h2>
-    {% endif %}
-  </div>
+
   {% assign role_data = role.items %}
   {% assign years = role_data | group_by_exp: "d", "d.date | date: '%Y'" | sort: "ord" | reverse %}
 
