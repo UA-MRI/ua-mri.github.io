@@ -1,6 +1,7 @@
 ---
 name: Debottama Das
-description: PhD Student
+image: images/members/debottama_das.jpeg
+description: ECE PhD Student
 role: phd
-ord: 5
+ord: 6
 ---

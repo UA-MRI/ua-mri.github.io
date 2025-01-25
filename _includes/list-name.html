@@ -6,7 +6,7 @@
   <div class="role-section">
     {% if role.name == "phd" %}
       <h2>PhD Students</h2>
-    {% else if role.name == "researcher" %}
+    {% elsif role.name == "researcher" %}
       <h2>Researchers</h2>
     {% else %}
       <h2>{{ role.name | capitalize }}</h2>

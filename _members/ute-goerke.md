@@ -1,9 +1,9 @@
 ---
 name: Ute Goerke
 image: images/members/ute_goerke.jpeg
-description: Researcher
+description: Siemens Researcher
 role: researcher
 ord: 2
 links:
-  email: tonerbp@math.arizona.edu
+  email: ute.goerke@siemens-healthineers.com
 ---
