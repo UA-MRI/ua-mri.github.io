@@ -5,5 +5,6 @@ description: Applied Math PhD Student
 role: phd
 ord: 3
 links:
-  email: tonerbp@math.arizona.edu
+  email: tonerbp@arizona.edu
+  website: https://sites.google.com/view/briantoner/home
 ---
