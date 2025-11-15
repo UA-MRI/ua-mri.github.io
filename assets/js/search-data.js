@@ -30,7 +30,54 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "news-our-webpage-is-live",
+        },{id: "post-brian-toner-phd-defense",
+        
+          title: "Brian Toner – PhD Defense",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/brian-toner-defense/";
+          
+        },
+      },{id: "post-ismrm-2025-honolulu",
+        
+          title: "ISMRM 2025 – Honolulu",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ismrm-2025/";
+          
+        },
+      },{id: "post-new-year-celebration",
+        
+          title: "New Year Celebration",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/new-year-celebration-copy/";
+          
+        },
+      },{id: "post-dr-mariappan-nadar-39-s-visit",
+        
+          title: "Dr. Mariappan Nadar&#39;s Visit",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dr-mariappan-visit/";
+          
+        },
+      },{id: "news-we-attended-ismrm-2025-in-honolulu-and-presented-six-papers-from-our-lab",
+          title: '🌺 We attended ISMRM 2025 in Honolulu and presented six papers from our...',
+          description: "",
+          section: "News",},{id: "news-our-webpage-is-live",
           title: '🎉 Our webpage is live!',
           description: "",
           section: "News",},{id: "people-phd-student",
