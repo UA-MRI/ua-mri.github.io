@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.name | default: page.title }}</h1>
+    {% if page.title %}
+      <p class="desc" style="text-transform: capitalize;">{{ page.title }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+  </article>
+</div>
+

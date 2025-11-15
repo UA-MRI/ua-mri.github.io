@@ -1,44 +1,66 @@
 ---
 layout: default
 ---
+{% if page.hero_image %}
+  <!-- Direct image option - full width -->
+  <div class="about-hero-image" style="width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-top: -2rem; margin-bottom: 2rem; text-align: center;">
+    {% assign hero_image_path = page.hero_image | prepend: 'assets/img/' %}
+    {%
+      include figure.liquid
+      loading="eager"
+      path=hero_image_path
+      class="img-fluid"
+      sizes="100vw"
+      alt="University of Arizona"
+    %}
+  </div>
+{% elsif page.hero_background %}
+  <!-- Background image option with full width -->
+  {% assign bg_position = page.hero_background_position | default: "center 30%" %}
+  {% assign overlay_opacity = page.hero_background_overlay | default: 0.4 %}
+  <div class="about-hero" style="background-image: url('{{ page.hero_background | prepend: "assets/img/" | relative_url }}'); background-size: cover; background-position: {{ bg_position }}; background-attachment: fixed; position: relative; padding: 12rem 0; min-height: 500px; margin: -2rem calc(-50vw + 50%) 2rem calc(-50vw + 50%); width: 100vw;">
+    <div style="background: rgba(0, 0, 0, {{ overlay_opacity }}); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <header class="post-header" style="color: white; text-align: center;">
+        <h1 class="post-title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-size: 3.2rem; line-height: 1.2;">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+            {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+         <p class="desc" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-weight: 500; font-size: 1.4rem; margin-top: 1rem;">
+          <style>
+            .about-hero .desc a {
+              text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            }
+            
+          </style>
+          {{ page.subtitle }}
+        </p>
+      </header>
+    </div>
+  </div>
+{% endif %}
+
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  {% unless page.hero_background or page.hero_image %}
+    <header class="post-header">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+    </header>
+  {% endunless %}
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
+      <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -73,8 +95,32 @@ layout: default
       </div>
     {% endif %}
 
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
+      {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    </article>
+  </div>
+{% if page.hero_background or page.hero_image %}
+  <style>
+    {% if page.hero_background %}
+    @media (max-width: 768px) {
+      .about-hero {
+        background-attachment: scroll !important;
+        padding: 6rem 0 !important;
+        min-height: 350px !important;
+      }
+      .about-hero .post-title {
+        font-size: 2.5rem !important;
+      }
+      .about-hero .desc {
+        font-size: 1.25rem !important;
+      }
+    }
     {% endif %}
-  </article>
-</div>
+    .about-hero-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+{% endif %}

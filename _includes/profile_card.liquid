@@ -1,0 +1,114 @@
+<div class="col mb-4">
+  {% if profile.page %}
+    {% assign page_basename = profile.page | remove: '.md' %}
+    {% assign profile_page = site.people | where_exp: "person", "person.path contains page_basename" | first %}
+    {% if profile_page %}
+      {% assign profile_url = profile_page.url | relative_url %}
+    {% else %}
+      {% assign profile_url = null %}
+    {% endif %}
+  {% else %}
+    {% assign profile_url = null %}
+  {% endif %}
+  
+  {% if profile_url %}
+    <a href="{{ profile_url }}" style="text-decoration: none; color: inherit; display: block;">
+  {% endif %}
+  <div class="card h-100 {% if profile_url %}hoverable{% endif %}" {% if profile_url %}style="cursor: pointer;"{% endif %}>
+    {% if profile.image %}
+      {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+      {% if profile.image_circular %}
+        <div class="card-img-top profile-image-container" style="padding: 1.5rem; text-align: center; background-color: var(--global-bg-color);">
+          <div class="profile-image-circle" style="width: 200px; height: 200px; margin: 0 auto; overflow: hidden; border-radius: 50%;">
+            {%
+              include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              sizes="200px"
+              alt=profile.name
+              class="profile-image-square"
+            %}
+          </div>
+        </div>
+      {% else %}
+        <div class="card-img-top profile-image-container" style="width: 100%; padding-top: 100%; position: relative; overflow: hidden; background-color: var(--global-bg-color);">
+          <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            {%
+              include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              sizes="250px"
+              alt=profile.name
+              class="profile-image-square"
+            %}
+          </div>
+        </div>
+      {% endif %}
+      <style>
+        .profile-image-square figure,
+        .profile-image-square picture,
+        .profile-image-square img {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        .profile-image-square img {
+          object-fit: cover;
+          object-position: center;
+        }
+        .profile-image-circle figure,
+        .profile-image-circle picture,
+        .profile-image-circle img {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        .profile-image-circle img {
+          object-fit: cover;
+          object-position: center;
+        }
+      </style>
+    {% endif %}
+    <div class="card-body">
+      <h3 class="card-title">{{ profile.name }}</h3>
+      {% if profile.title %}
+        <p class="card-text text-muted"><small>{{ profile.title }}</small></p>
+      {% endif %}
+      {% if profile.more_info %}
+        <div class="card-text">
+          {{ profile.more_info }}
+        </div>
+      {% endif %}
+      {% if profile.email or profile.website or profile.scholar or profile.github %}
+        <div class="profile-social-icons mt-2" style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+          {% if profile.email %}
+            <div class="icon" data-toggle="tooltip" title="Email">
+              <a href="mailto:{{ profile.email }}" onclick="event.stopPropagation();"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          {% endif %}
+          {% if profile.website %}
+            <div class="icon" data-toggle="tooltip" title="Website">
+              <a href="{{ profile.website }}" target="_blank" onclick="event.stopPropagation();"><i class="fa-solid fa-globe"></i></a>
+            </div>
+          {% endif %}
+          {% if profile.scholar %}
+            <div class="icon" data-toggle="tooltip" title="Google Scholar">
+              <a href="{{ profile.scholar }}" target="_blank" onclick="event.stopPropagation();"><i class="ai ai-google-scholar"></i></a>
+            </div>
+          {% endif %}
+          {% if profile.github %}
+            <div class="icon" data-toggle="tooltip" title="GitHub">
+              <a href="{{ profile.github }}" target="_blank" onclick="event.stopPropagation();"><i class="fa-brands fa-github gh-icon"></i></a>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  {% if profile_url %}
+    </a>
+  {% endif %}
+</div>
+

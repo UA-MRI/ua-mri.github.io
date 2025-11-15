@@ -10,17 +10,19 @@ manage_gemfile_lock() {
     git config --global --add safe.directory '*'
     if command -v git &> /dev/null && [ -f Gemfile.lock ]; then
         if git ls-files --error-unmatch Gemfile.lock &> /dev/null; then
-            echo "Gemfile.lock is tracked by git, keeping it intact"
-            git restore Gemfile.lock 2>/dev/null || true
+            echo "Gemfile.lock is tracked by git, but REMOVE IT for Linux builds"
+            rm Gemfile.lock
         else
-            echo "Gemfile.lock is not tracked by git, removing it"
+            echo "Gemfile.lock is not tracked by git, but REMOVE IT for Linux builds"
             rm Gemfile.lock
         fi
     fi
 }
 
 start_jekyll() {
-    manage_gemfile_lock
+    #manage_gemfile_lock
+    echo "Installing gems..."
+    bundle install
     bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
 }
 
