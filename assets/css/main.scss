@@ -23,3 +23,18 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+/* Fix PhotoSwipe forcing square thumbnails */
+.pswp-gallery--single-column img {
+  aspect-ratio: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* Optional: ensure the wrapper does not force square shape */
+.pswp-gallery--single-column a {
+  aspect-ratio: auto !important;
+  height: auto !important;
+}
