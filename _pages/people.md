@@ -78,7 +78,7 @@ profiles:
     image_circular: true
     email: bcurley2@arizona.edu
     more_info: >
-      <p><strong>Research:</strong> Pulse Sequence </p>
+      <p><strong>Research:</strong> Medical AI, Deep Learning</p>
 
   # Alumni
   - category: Alumni
