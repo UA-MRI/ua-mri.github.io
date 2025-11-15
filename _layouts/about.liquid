@@ -2,41 +2,50 @@
 layout: default
 ---
 {% if page.hero_image %}
-  <!-- Direct image option - full width -->
-  <div
-    class="about-hero-image"
-    style="width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-top: -2rem; margin-bottom: 2rem; text-align: center;"
-  >
+  <!-- Direct image option - 95% width fixed -->
+  <div class="custom-hero-wrapper">
     {% assign hero_image_path = page.hero_image | prepend: 'assets/img/' %}
     {%
       include figure.liquid
       loading="eager"
       path=hero_image_path
-      class="img-fluid"
-      sizes="100vw"
+      class="custom-hero-image"
+      sizes="95vw"
       alt="University of Arizona"
     %}
   </div>
+
 {% elsif page.hero_background %}
   <!-- Background image option with full width -->
   {% assign bg_position = page.hero_background_position | default: 'center 30%' %}
   {% assign overlay_opacity = page.hero_background_overlay | default: 0.4 %}
+
   <div
     class="about-hero"
-    style="background-image: url('{{ page.hero_background | prepend: "assets/img/" | relative_url }}'); background-size: cover; background-position: {{ bg_position }}; background-attachment: fixed; position: relative; padding: 12rem 0; min-height: 500px; margin: -2rem calc(-50vw + 50%) 2rem calc(-50vw + 50%); width: 100vw;"
+    style="background-image: url('{{ page.hero_background | prepend: "assets/img/" | relative_url }}');
+           background-size: cover;
+           background-position: {{ bg_position }};
+           background-attachment: fixed;
+           position: relative;
+           padding: 12rem 0;
+           min-height: 500px;
+           margin: -2rem calc(-50vw + 50%) 2rem calc(-50vw + 50%);
+           width: 99vw;"
   >
     <div style="background: rgba(0, 0, 0, {{ overlay_opacity }}); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
     <div class="container" style="position: relative; z-index: 1;">
       <header class="post-header" style="color: white; text-align: center;">
-        <h1 class="post-title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-size: 3.2rem; line-height: 1.2;">
+        <h1 class="post-title"
+            style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-size: 3.2rem; line-height: 1.2;">
           {% if site.title == 'blank' %}
-            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-            {{ site.last_name }}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
           {% else %}
             {{ site.title }}
           {% endif %}
         </h1>
-        <p class="desc" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-weight: 500; font-size: 1.4rem; margin-top: 1rem;">
+
+        <p class="desc"
+           style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-weight: 500; font-size: 1.4rem; margin-top: 1rem;">
           <style>
             .about-hero .desc a {
               text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -50,12 +59,12 @@ layout: default
 {% endif %}
 
 <div class="post">
+
   {% unless page.hero_background or page.hero_image %}
     <header class="post-header">
       <h1 class="post-title">
         {% if site.title == 'blank' %}
-          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-          {{ site.last_name }}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
         {% else %}
           {{ site.title }}
         {% endif %}
@@ -67,35 +76,24 @@ layout: default
   <article>
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
+      <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a></h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
+      <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a></h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
+      <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
@@ -105,27 +103,33 @@ layout: default
     {% endif %}
   </article>
 </div>
-{% if page.hero_background or page.hero_image %}
-  <style>
-    {% if page.hero_background %}
-    @media (max-width: 768px) {
-      .about-hero {
-        background-attachment: scroll !important;
-        padding: 6rem 0 !important;
-        min-height: 350px !important;
-      }
-      .about-hero .post-title {
-        font-size: 2.5rem !important;
-      }
-      .about-hero .desc {
-        font-size: 1.25rem !important;
-      }
-    }
-    {% endif %}
-    .about-hero-image img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-  </style>
-{% endif %}
+
+<style>
+/.custom-hero-bg-wrapper {
+  width: 90vw;                 /* 95% of screen width */
+  margin: -2rem auto 2rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%); /* center the 95vw block */
+}
+
+
+/* Override al-folio default image sizing */
+.custom-hero-wrapper img.custom-hero-image {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block;
+  height: auto;
+}
+
+/* Mobile fixes */
+@media (max-width: 768px) {
+  .custom-hero-wrapper {
+    width: 100% !important;
+  }
+}
+</style>
+
