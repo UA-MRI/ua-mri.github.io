@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Our webpage is live! 
+🎉 Our webpage is live!

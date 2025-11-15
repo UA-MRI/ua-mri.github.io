@@ -12,4 +12,3 @@ images:
 We welcomed the New Year with a relaxed lab lunch, enjoying good food, good company, and a nice break together.
 
 {% image_gallery assets/img/blog-new-year %}
-
