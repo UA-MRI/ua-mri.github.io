@@ -13,7 +13,6 @@ profile_categories:
 
 # Profiles organized by category
 profiles:
-
   # Professors
   - category: Faculty
     name: Ali Bilgin
@@ -24,17 +23,14 @@ profiles:
     website: https://www2.engr.arizona.edu/~bilgin
     scholar: https://scholar.google.com/citations?user=I25Yns8AAAAJ
 
-
     # Professors
   - category: Faculty
     name: Maria Altbach
     title: Professor, Radiology and Imaging Sciences and Biomedical Engineering
     image: people/maria_altbach.jpg
     image_circular: true
-    email: maltbach@arizona.edu    
+    email: maltbach@arizona.edu
     scholar: https://scholar.google.com/citations?user=P54fugMAAAAJ
-
-  
 
   - category: Students
     name: Brian Toner
@@ -62,7 +58,7 @@ profiles:
     email: dkarakay@arizona.edu
     github: https://github.com/dkarakay
     website: https://karakay.me
-    page: deniz_karakay.md  # Optional: link to personal profile page in _people/
+    page: deniz_karakay.md # Optional: link to personal profile page in _people/
     more_info: >
       <p><strong>Research:</strong> Medical AI, Deep Learning</p>
 
@@ -74,7 +70,7 @@ profiles:
     email: debottamad@arizona.edu
     more_info: >
       <p><strong>Research:</strong> Medical AI, Deep Learning</p>
-  
+
   - category: Students
     name: Briana Curley
     title: Undergraduate Student
@@ -83,8 +79,7 @@ profiles:
     email: bcurley2@arizona.edu
     more_info: >
       <p><strong>Research:</strong> Pulse Sequence </p>
-  
-  
+
   # Alumni
   - category: Alumni
     name: Philip Martin
@@ -94,7 +89,7 @@ profiles:
     more_info: >
       <p><strong>Graduated:</strong> 2024</p>
       <p><strong>Current Position:</strong> MRI Physicist at Houston Methodist</p>
-  
+
   # Add more profiles by replicating the block above
   # Each profile needs:
   #   - category: (must match one of the categories above: "Professors", "Current Lab", or "Alumni")

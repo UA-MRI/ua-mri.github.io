@@ -9,7 +9,7 @@ hero_background: uofa.jpg
 hero_background_position: center 65%
 hero_background_overlay: 0.75
 
-selected_papers: true
+selected_papers: false
 social: false
 
 announcements:
@@ -28,4 +28,3 @@ latest_posts:
 Our group focuses on developing next generation MRI methods, including quantitative mapping such as T1, T2, and diffusion, accelerated and noise robust reconstruction, model based deep learning, and advanced MR signal modeling. We combine MR physics, generative modeling, and image processing techniques to create fast, accurate, and clinically reliable imaging across a wide range of applications.
 
 Our work brings together engineering, computer science, and clinical imaging, with active collaborations across the Departments of Medical Imaging, Biomedical Engineering, and the BIO5 Institute. We aim to translate innovative algorithms, from reconstruction frameworks to quantitative analysis pipelines, into practical tools that improve MRI research and clinical workflows.
-

@@ -26,4 +26,3 @@ Write your detailed biography here. This is your personal profile page where you
 - Any other information you'd like to share
 
 You can use markdown formatting, include images, links, and more. This page will be linked from your profile card on the main people page.
-
