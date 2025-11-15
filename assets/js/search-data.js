@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/brian-toner-defense/";
           
         },
+      },{id: "post-unos-project-lunch-with-dr-tanriover",
+        
+          title: "UNOS Project Lunch with Dr. Tanriover",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/unos-lunch/";
+          
+        },
       },{id: "post-ismrm-2025-honolulu",
         
           title: "ISMRM 2025 – Honolulu",
@@ -50,6 +61,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/ismrm-2025/";
+          
+        },
+      },{id: "post-u01-workshop-at-tucson",
+        
+          title: "U01 Workshop at Tucson",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/u01-workshop/";
+          
+        },
+      },{id: "post-arun-pugazhendhi-residency-match",
+        
+          title: "Arun Pugazhendhi – Residency Match",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/arun-residency/";
           
         },
       },{id: "post-new-year-celebration",
