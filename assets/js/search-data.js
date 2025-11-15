@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "post-brian-toner-phd-defense",
         
-          title: "Brian Toner – PhD Defense",
+          title: "Brian Toner - PhD Defense",
         
         description: "",
         section: "Posts",
@@ -52,9 +52,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/unos-lunch/";
           
         },
-      },{id: "post-ismrm-2025-honolulu",
+      },{id: "post-ismrm-2025-at-honolulu",
         
-          title: "ISMRM 2025 – Honolulu",
+          title: "ISMRM 2025 at Honolulu",
         
         description: "",
         section: "Posts",
@@ -76,7 +76,7 @@ ninja.data = [{
         },
       },{id: "post-arun-pugazhendhi-residency-match",
         
-          title: "Arun Pugazhendhi – Residency Match",
+          title: "Arun Pugazhendhi - Residency Match",
         
         description: "",
         section: "Posts",
