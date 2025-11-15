@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Arun Pugazhendhi – Residency Match
+title: Arun Pugazhendhi - Residency Match
 date: 2025-03-21 00:00:00-0400
 thumbnail: assets/img/blog-arun-residency/IMG_6274.jpg
 author: deniz-karakay

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brian Toner – PhD Defense
+title: Brian Toner - PhD Defense
 date: 2025-11-06 00:00:00-0400
 thumbnail: assets/img/blog-brian-defense/IMG_3450.jpg
 author: deniz-karakay
