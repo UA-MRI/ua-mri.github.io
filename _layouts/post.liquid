@@ -76,11 +76,9 @@ layout: default
 
   {% if page.related_publications %}
     <h2>References</h2>
-    {% unless site.github %}
     <div class="publications">
       {% bibliography --group_by none --cited_in_order %}
     </div>
-    {% endunless %}
   {% endif %}
 
   {% if site.related_blog_posts and site.related_blog_posts.enabled %}
