@@ -22,30 +22,37 @@ layout: default
 
   <div
     class="about-hero"
-    style="background-image: url('{{ page.hero_background | prepend: "assets/img/" | relative_url }}');
-           background-size: cover;
-           background-position: {{ bg_position }};
-           background-attachment: fixed;
-           position: relative;
-           padding: 12rem 0;
-           min-height: 500px;
-           margin: -2rem calc(-50vw + 50%) 2rem calc(-50vw + 50%);
-           width: 99vw;"
+    style="
+      background-image: url('{{ page.hero_background | prepend: "assets/img/" | relative_url }}');
+      background-size: cover;
+      background-position: {{ bg_position }};
+      background-attachment: fixed;
+      position: relative;
+      padding: 12rem 0;
+      min-height: 500px;
+      margin: -2rem calc(-50vw + 50%) 2rem calc(-50vw + 50%);
+      width: 99vw;
+    "
   >
     <div style="background: rgba(0, 0, 0, {{ overlay_opacity }}); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
     <div class="container" style="position: relative; z-index: 1;">
       <header class="post-header" style="color: white; text-align: center;">
-        <h1 class="post-title"
-            style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-size: 3.2rem; line-height: 1.2;">
+        <h1
+          class="post-title"
+          style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-size: 3.2rem; line-height: 1.2;"
+        >
           {% if site.title == 'blank' %}
-            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+            {{ site.last_name }}
           {% else %}
             {{ site.title }}
           {% endif %}
         </h1>
 
-        <p class="desc"
-           style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-weight: 500; font-size: 1.4rem; margin-top: 1rem;">
+        <p
+          class="desc"
+          style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-weight: 500; font-size: 1.4rem; margin-top: 1rem;"
+        >
           <style>
             .about-hero .desc a {
               text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -59,12 +66,12 @@ layout: default
 {% endif %}
 
 <div class="post">
-
   {% unless page.hero_background or page.hero_image %}
     <header class="post-header">
       <h1 class="post-title">
         {% if site.title == 'blank' %}
-          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+          {{ site.last_name }}
         {% else %}
           {{ site.title }}
         {% endif %}
@@ -105,31 +112,29 @@ layout: default
 </div>
 
 <style>
-/.custom-hero-bg-wrapper {
-  width: 90vw;                 /* 95% of screen width */
-  margin: -2rem auto 2rem auto;
-  overflow: hidden;
-  border-radius: 12px;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  transform: translateX(-50%); /* center the 95vw block */
-}
-
-
-/* Override al-folio default image sizing */
-.custom-hero-wrapper img.custom-hero-image {
-  width: 100% !important;
-  max-width: 100% !important;
-  display: block;
-  height: auto;
-}
-
-/* Mobile fixes */
-@media (max-width: 768px) {
-  .custom-hero-wrapper {
-    width: 100% !important;
+  /.custom-hero-bg-wrapper {
+    width: 90vw; /* 95% of screen width */
+    margin: -2rem auto 2rem auto;
+    overflow: hidden;
+    border-radius: 12px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%); /* center the 95vw block */
   }
-}
-</style>
 
+  /* Override al-folio default image sizing */
+  .custom-hero-wrapper img.custom-hero-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block;
+    height: auto;
+  }
+
+  /* Mobile fixes */
+  @media (max-width: 768px) {
+    .custom-hero-wrapper {
+      width: 100% !important;
+    }
+  }
+</style>
