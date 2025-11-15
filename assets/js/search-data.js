@@ -93,7 +93,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/new-year-celebration-copy/";
+            window.location.href = "/blog/2024/new-year-celebration/";
           
         },
       },{id: "post-dr-mariappan-nadar-39-s-visit",
