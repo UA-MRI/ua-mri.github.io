@@ -113,16 +113,46 @@ ninja.data = [{
           section: "News",},{id: "news-our-webpage-is-live",
           title: '🎉 Our webpage is live!',
           description: "",
-          section: "News",},{id: "people-phd-student",
-          title: 'PhD Student',
-          description: "Graduating PhD student",
+          section: "News",},{id: "people-professor-of-biomedical-engineering-electrical-amp-computer-engineering-and-medical-imaging-bio5-institute-faculty",
+          title: 'Professor of Biomedical Engineering, Electrical &amp;amp; Computer Engineering, and Medical Imaging; BIO5 Institute...',
+          description: "Professor working on biomedical imaging",
+          section: "People",handler: () => {
+              window.location.href = "/people/ali-bilgin/";
+            },},{id: "people-phd-candidate",
+          title: 'PhD Candidate',
+          description: "PhD Candidate working on quantitative MRI",
           section: "People",handler: () => {
               window.location.href = "/people/brian-toner/";
+            },},{id: "people-undergraduate-student",
+          title: 'Undergraduate Student',
+          description: "Undergraduate Student working on medical AI and deep learning",
+          section: "People",handler: () => {
+              window.location.href = "/people/briana-curley/";
             },},{id: "people-phd-student",
           title: 'PhD Student',
-          description: "PhD Student working on deep learning for medical imaging",
+          description: "PhD Student working on medical AI and deep learning",
+          section: "People",handler: () => {
+              window.location.href = "/people/debottama-das/";
+            },},{id: "people-phd-student",
+          title: 'PhD Student',
+          description: "",
           section: "People",handler: () => {
               window.location.href = "/people/deniz-karakay/";
+            },},{id: "people-phd-candidate",
+          title: 'PhD Candidate',
+          description: "PhD Candidate working on medical AI and deep learning",
+          section: "People",handler: () => {
+              window.location.href = "/people/eze-ahanonu/";
+            },},{id: "people-professor-radiology-and-imaging-sciences-and-biomedical-engineering",
+          title: 'Professor, Radiology and Imaging Sciences and Biomedical Engineering',
+          description: "Professor working on radiology and imaging sciences",
+          section: "People",handler: () => {
+              window.location.href = "/people/maria-altbach/";
+            },},{id: "people-former-phd-student",
+          title: 'Former PhD Student',
+          description: "Former PhD Student, graduated 2024",
+          section: "People",handler: () => {
+              window.location.href = "/people/philip-martin/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
