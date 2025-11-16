@@ -109,6 +109,14 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
+
+   <div class="container">
+      <script
+        type="text/javascript"
+        id="clustrmaps"
+        src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=532LPr4msjE5_gKhjuHbfNSBwWx3o1JMGmeD-DCKly8&co=0b4975&ct=cdd4d9&cmo=97f449&cmn=00c134"
+      ></script>
+    </div>
 </div>
 
 <style>
@@ -135,6 +143,46 @@ layout: default
   @media (max-width: 768px) {
     .custom-hero-wrapper {
       width: 100% !important;
+    }
+
+    /* Hero background mobile improvements */
+    .about-hero {
+      background-attachment: scroll !important;
+      padding: 4rem 0 !important;
+      min-height: 300px !important;
+      margin: -1rem calc(-50vw + 50%) 1rem calc(-50vw + 50%) !important;
+    }
+
+    .about-hero .post-title {
+      font-size: 2.5rem !important;
+      line-height: 1.3 !important;
+      padding: 0 1rem;
+    }
+
+    .about-hero .desc {
+      font-size: 1.2rem !important;
+      padding: 0 1rem;
+      margin-top: 0.5rem !important;
+    }
+
+    .about-hero .post-header {
+      padding: 0 0.5rem;
+    }
+  }
+
+  /* Small mobile devices */
+  @media (max-width: 480px) {
+    .about-hero {
+      padding: 3rem 0 !important;
+      min-height: 250px !important;
+    }
+
+    .about-hero .post-title {
+      font-size: 2rem !important;
+    }
+
+    .about-hero .desc {
+      font-size: 1.1rem !important;
     }
   }
 </style>
