@@ -4,13 +4,14 @@ name: Brian Toner
 title: PhD Student
 permalink: /people/brian-toner/
 description: Graduating PhD student 
+
 profile:
   align: right
   image: people/brian_toner.jpeg
   image_circular: true
   more_info: >
     <p><strong>Email:</strong> tonerbp@arizona.edu</p>
-    <p><strong>Research:</strong> Quantitative MRI, DL image reconstruction, uncertainty quantification, abdominal T2 mapping</p>
+    <p><strong>Research:</strong> Quantitative MRI, abdominal T2 mapping, uncertainty quantification</p>
 
 social: true
 ---
