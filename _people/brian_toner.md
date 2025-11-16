@@ -6,7 +6,7 @@ permalink: /people/brian-toner/
 description: Graduating PhD student 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: people/brian_toner.jpeg
   image_circular: true
   more_info: >
     <p><strong>Email:</strong> tonerbp@arizona.edu</p>
