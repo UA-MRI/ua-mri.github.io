@@ -39,7 +39,7 @@ profiles:
     image_circular: true
     email: tonerbp@arizona.edu
     github: https://github.com/tonerbp
-    website: [https://karakay.me](https://sites.google.com/view/briantoner)
+    website: [https://sites.google.com/view/briantoner]
     page: brian_toner.md # Optional: link to personal profile page in _people/
     more_info: >
       <p><strong>Research:</strong> Quantiative MRI, DL image reconstruction, uncertainty quantification, abdominal T2 mapping</p>
