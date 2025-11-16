@@ -28,8 +28,8 @@ layout: default
       background-position: {{ bg_position }};
       background-attachment: fixed;
       position: relative;
-      padding: 12rem 0;
-      min-height: 500px;
+      padding: 9rem 0;
+      min-height: 350px;
       margin: -2rem calc(-50vw + 50%) 2rem calc(-50vw + 50%);
       width: 99vw;
     "
@@ -38,9 +38,9 @@ layout: default
     <div class="container" style="position: relative; z-index: 1;">
       <header class="post-header" style="color: white; text-align: center;">
         {% if page.hero_logo %}
-          <div style="margin-bottom: 2rem;">
+          <div style="margin-bottom: 1rem;">
             {% assign logo_path = page.hero_logo | prepend: 'assets/img/' %}
-            <img src="{{ logo_path | relative_url }}" alt="Lab Logo" style="max-width: 300px; max-height: 200px; width: auto; height: auto;">
+            <img src="{{ logo_path | relative_url }}" alt="Lab Logo" style="max-width: 250px; max-height: 150px; width: auto; height: auto;">
           </div>
         {% endif %}
         <h1
