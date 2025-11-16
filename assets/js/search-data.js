@@ -115,6 +115,11 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "people-phd-student",
           title: 'PhD Student',
+          description: "Graduating PhD student",
+          section: "People",handler: () => {
+              window.location.href = "/people/brian-toner/";
+            },},{id: "people-phd-student",
+          title: 'PhD Student',
           description: "PhD Student working on deep learning for medical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/deniz-karakay/";
