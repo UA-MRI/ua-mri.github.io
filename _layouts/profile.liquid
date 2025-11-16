@@ -10,6 +10,129 @@ layout: default
   </header>
 
   <article>
+    {% comment %} Display profile image if available {% endcomment %}
+    {% if page.profile.image %}
+      {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+      {% if page.profile.image_circular %}
+        <div style="float: {{ page.profile.align | default: 'right' }}; width: 250px; margin: 0 0 2rem 2rem; text-align: center;">
+          <div style="width: 250px; height: 250px; margin: 0 auto; overflow: hidden; border-radius: 50%;">
+            {%
+              include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              sizes="250px"
+              alt=page.name
+              class="profile-image-square"
+            %}
+          </div>
+        </div>
+      {% else %}
+        <div style="float: {{ page.profile.align | default: 'right' }}; width: 250px; margin: 0 0 2rem 2rem;">
+          {%
+            include figure.liquid
+            loading="eager"
+            path=profile_image_path
+            sizes="250px"
+            alt=page.name
+            class="profile-image-square"
+          %}
+        </div>
+      {% endif %}
+      <style>
+        .profile-image-square figure,
+        .profile-image-square picture,
+        .profile-image-square img {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        .profile-image-square img {
+          object-fit: cover;
+          object-position: center;
+        }
+      </style>
+    {% elsif page.image %}
+      {% comment %} Fallback to page.image if profile.image is not set {% endcomment %}
+      {% assign profile_image_path = page.image | prepend: 'assets/img/' %}
+      {% if page.image_circular %}
+        <div style="float: {{ page.profile.align | default: 'right' }}; width: 250px; margin: 0 0 2rem 2rem; text-align: center;">
+          <div style="width: 250px; height: 250px; margin: 0 auto; overflow: hidden; border-radius: 50%;">
+            {%
+              include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              sizes="250px"
+              alt=page.name
+              class="profile-image-square"
+            %}
+          </div>
+        </div>
+      {% else %}
+        <div style="float: {{ page.profile.align | default: 'right' }}; width: 250px; margin: 0 0 2rem 2rem;">
+          {%
+            include figure.liquid
+            loading="eager"
+            path=profile_image_path
+            sizes="250px"
+            alt=page.name
+            class="profile-image-square"
+          %}
+        </div>
+      {% endif %}
+      <style>
+        .profile-image-square figure,
+        .profile-image-square picture,
+        .profile-image-square img {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        .profile-image-square img {
+          object-fit: cover;
+          object-position: center;
+        }
+      </style>
+    {% endif %}
+
+    {% if page.profile.more_info %}
+      <div style="margin-bottom: 2rem;">
+        {{ page.profile.more_info }}
+      </div>
+    {% endif %}
+
+    {% comment %} Display social links (email, website, GitHub, LinkedIn, scholar) if available {% endcomment %}
+    {% if page.email or page.website or page.scholar or page.github or page.linkedin %}
+      <div class="profile-social-icons" style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 2rem;">
+        {% if page.email %}
+          <div class="icon" data-toggle="tooltip" title="Email">
+            <a href="mailto:{{ page.email }}" style="font-size: 1.5rem;"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        {% endif %}
+        {% if page.website %}
+          <div class="icon" data-toggle="tooltip" title="Website">
+            <a href="{{ page.website }}" target="_blank" style="font-size: 1.5rem;"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        {% endif %}
+        {% if page.scholar %}
+          <div class="icon" data-toggle="tooltip" title="Google Scholar">
+            <a href="{{ page.scholar }}" target="_blank" style="font-size: 1.5rem;"><i class="ai ai-google-scholar"></i></a>
+          </div>
+        {% endif %}
+        {% if page.github %}
+          <div class="icon" data-toggle="tooltip" title="GitHub">
+            <a href="{{ page.github }}" target="_blank" style="font-size: 1.5rem;"><i class="fa-brands fa-github gh-icon"></i></a>
+          </div>
+        {% endif %}
+        {% if page.linkedin %}
+          <div class="icon" data-toggle="tooltip" title="LinkedIn">
+            <a href="{{ page.linkedin }}" target="_blank" style="font-size: 1.5rem;"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <div class="clearfix">{{ content }}</div>
 
     <!-- Social -->

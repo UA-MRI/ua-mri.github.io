@@ -1,5 +1,8 @@
 <div class="col mb-4">
-  {% if profile.page %}
+  {% comment %} For collection items, use profile.url directly; otherwise use the old page-based logic {% endcomment %}
+  {% if profile.url %}
+    {% assign profile_url = profile.url | relative_url %}
+  {% elsif profile.page %}
     {% assign page_basename = profile.page | remove: '.md' %}
     {% assign profile_page = site.people | where_exp: 'person', 'person.path contains page_basename' | first %}
     {% if profile_page %}
@@ -15,7 +18,7 @@
     <a href="{{ profile_url }}" style="text-decoration: none; color: inherit; display: block;">
   {% endif %}
   <div
-    class="card h-100 {% if profile_url %}hoverable{% endif %}"
+    class="card h-100 {% if profile_url %}hoverable profile-card-clickable{% endif %}"
     {% if profile_url %}
       style="cursor: pointer;"
     {% endif %}
@@ -79,6 +82,16 @@
         }
       </style>
     {% endif %}
+    <style>
+      .profile-card-clickable {
+        transition: all 0.3s ease;
+      }
+      .profile-card-clickable:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        border-color: rgba(0, 0, 0, 0.1);
+      }
+    </style>
     <div class="card-body">
       <h3 class="card-title">{{ profile.name }}</h3>
       {% if profile.title %}
@@ -91,26 +104,41 @@
           {{ profile.more_info }}
         </div>
       {% endif %}
-      {% if profile.email or profile.website or profile.scholar or profile.github %}
+      {% if profile.email or profile.website or profile.scholar or profile.github or profile.linkedin %}
         <div class="profile-social-icons mt-2" style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
           {% if profile.email %}
             <div class="icon" data-toggle="tooltip" title="Email">
-              <a href="mailto:{{ profile.email }}" onclick="event.stopPropagation();"><i class="fa-solid fa-envelope"></i></a>
+              <a href="mailto:{{ profile.email }}" onclick="event.stopPropagation();" style="font-size: 1.5rem;"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
             </div>
           {% endif %}
           {% if profile.website %}
             <div class="icon" data-toggle="tooltip" title="Website">
-              <a href="{{ profile.website }}" target="_blank" onclick="event.stopPropagation();"><i class="fa-solid fa-globe"></i></a>
+              <a href="{{ profile.website }}" target="_blank" onclick="event.stopPropagation();" style="font-size: 1.5rem;"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
             </div>
           {% endif %}
           {% if profile.scholar %}
             <div class="icon" data-toggle="tooltip" title="Google Scholar">
-              <a href="{{ profile.scholar }}" target="_blank" onclick="event.stopPropagation();"><i class="ai ai-google-scholar"></i></a>
+              <a href="{{ profile.scholar }}" target="_blank" onclick="event.stopPropagation();" style="font-size: 1.5rem;"
+                ><i class="ai ai-google-scholar"></i
+              ></a>
             </div>
           {% endif %}
           {% if profile.github %}
             <div class="icon" data-toggle="tooltip" title="GitHub">
-              <a href="{{ profile.github }}" target="_blank" onclick="event.stopPropagation();"><i class="fa-brands fa-github gh-icon"></i></a>
+              <a href="{{ profile.github }}" target="_blank" onclick="event.stopPropagation();" style="font-size: 1.5rem;"
+                ><i class="fa-brands fa-github gh-icon"></i
+              ></a>
+            </div>
+          {% endif %}
+          {% if profile.linkedin %}
+            <div class="icon" data-toggle="tooltip" title="LinkedIn">
+              <a href="{{ profile.linkedin }}" target="_blank" onclick="event.stopPropagation();" style="font-size: 1.5rem;"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </div>
           {% endif %}
         </div>

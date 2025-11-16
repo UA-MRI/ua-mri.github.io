@@ -3,6 +3,13 @@ layout: page
 ---
 <div class="post">
   <article>
+    {% comment %} Use site.people collection if available, otherwise fall back to page.profiles {% endcomment %}
+    {% if site.people %}
+      {% assign all_profiles = site.people %}
+    {% else %}
+      {% assign all_profiles = page.profiles %}
+    {% endif %}
+
     {% if page.profile_categories %}
       <!-- Display categorized profiles in card grid -->
       {% for category in page.profile_categories %}
@@ -10,7 +17,11 @@ layout: page
         <a id="{{ category_name | slugify }}" href=".#{{ category_name | slugify }}">
           <h2 class="category">{{ category_name }}</h2>
         </a>
-        {% assign categorized_profiles = page.profiles | where: 'category', category_name %}
+        {% if site.people %}
+          {% assign categorized_profiles = site.people | where: 'category', category_name | sort: 'order' %}
+        {% else %}
+          {% assign categorized_profiles = page.profiles | where: 'category', category_name | sort: 'order' %}
+        {% endif %}
         {% if categorized_profiles.size > 0 %}
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5">
             {% for profile in categorized_profiles %}
@@ -19,10 +30,10 @@ layout: page
           </div>
         {% endif %}
       {% endfor %}
-    {% elsif page.profiles %}
+    {% elsif all_profiles %}
       <!-- Display profiles without categories -->
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-        {% for profile in page.profiles %}
+        {% for profile in all_profiles %}
           {% include profile_card.liquid %}
         {% endfor %}
       </div>

@@ -1,28 +1,26 @@
 ---
 layout: profile
-name: Brian Toner
+name: Eze Ahanonu
 title: PhD Candidate
-permalink: /people/brian-toner/
-description: PhD Candidate working on quantitative MRI
+permalink: /people/eze-ahanonu/
+description: PhD Candidate working on medical AI and deep learning
 
 # Profile card data (used for people page)
 category: Students
-order: 1
-image: people/brian_toner.jpeg
+order: 2
+image: people/eze_ahanonu.jpeg
 image_circular: true
-email: tonerbp@arizona.edu
-github: https://github.com/tonerbp
-website: https://sites.google.com/view/briantoner
+email: eahanonu@arizona.edu
 more_info: >
-  <p><strong>Research:</strong> Quantiative MRI, DL image reconstruction, uncertainty quantification, abdominal T2 mapping</p>
+  <p><strong>Research:</strong> Medical AI, Deep Learning</p>
 
 profile:
   align: right
-  image: people/brian_toner.jpeg
+  image: people/eze_ahanonu.jpeg
   image_circular: true
   more_info: >
-    <p><strong>Email:</strong> tonerbp@arizona.edu</p>
-    <p><strong>Research:</strong> Quantitative MRI, abdominal T2 mapping, uncertainty quantification</p>
+    <p><strong>Email:</strong> eahanonu@arizona.edu</p>
+    <p><strong>Research:</strong> Medical AI, Deep Learning</p>
 
 social: true
 ---
