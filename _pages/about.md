@@ -8,6 +8,7 @@ subtitle: <a href='https://www.arizona.edu' target='_blank'>University of Arizon
 hero_background: uofa.jpg
 hero_background_position: center 65%
 hero_background_overlay: 0.75
+hero_logo: lab_logo.png
 
 selected_papers: false
 social: false

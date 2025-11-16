@@ -24,7 +24,7 @@ profile:
     <p><strong>Email:</strong> tonerbp@arizona.edu</p>
     <p><strong>Research:</strong> Quantitative MRI, abdominal T2 mapping, uncertainty quantification</p>
 
-social: true
+social: false
 ---
 
 Write your detailed biography here. This is your personal profile page where you can add:

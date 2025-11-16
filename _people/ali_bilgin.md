@@ -21,7 +21,7 @@ profile:
   more_info: >
     <p><strong>Email:</strong> bilgin@arizona.edu</p>
 
-social: true
+social: false
 ---
 
 Write your detailed biography here. This is your personal profile page where you can add:

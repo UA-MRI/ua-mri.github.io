@@ -22,7 +22,7 @@ profile:
     <p><strong>Email:</strong> bcurley2@arizona.edu</p>
     <p><strong>Research:</strong> Medical AI, Deep Learning</p>
 
-social: true
+social: false
 ---
 
 Write your detailed biography here. This is your personal profile page where you can add:

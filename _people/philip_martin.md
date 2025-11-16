@@ -22,7 +22,7 @@ profile:
     <p><strong>Graduated:</strong> 2024</p>
     <p><strong>Current Position:</strong> MRI Physicist at Houston Methodist</p>
 
-social: true
+social: false
 ---
 
 Write your detailed biography here. This is your personal profile page where you can add:

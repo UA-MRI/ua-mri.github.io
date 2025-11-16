@@ -37,6 +37,12 @@ layout: default
     <div style="background: rgba(0, 0, 0, {{ overlay_opacity }}); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
     <div class="container" style="position: relative; z-index: 1;">
       <header class="post-header" style="color: white; text-align: center;">
+        {% if page.hero_logo %}
+          <div style="margin-bottom: 2rem;">
+            {% assign logo_path = page.hero_logo | prepend: 'assets/img/' %}
+            <img src="{{ logo_path | relative_url }}" alt="Lab Logo" style="max-width: 300px; max-height: 200px; width: auto; height: auto;">
+          </div>
+        {% endif %}
         <h1
           class="post-title"
           style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); font-size: 3.2rem; line-height: 1.2;"
