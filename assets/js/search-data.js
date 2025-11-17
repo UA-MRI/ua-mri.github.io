@@ -118,6 +118,106 @@ ninja.data = [{
           description: "Professor working on biomedical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/ali-bilgin/";
+            },},{id: "people-m-s-student-ece",
+          title: 'M.S. Student, ECE',
+          description: "M.S. Student in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/alexis-boone/";
+            },},{id: "people-m-s-ece",
+          title: 'M.S., ECE',
+          description: "M.S. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/anantharaman-krishnan/";
+            },},{id: "people-ph-d-applied-math",
+          title: 'Ph.D., Applied Math',
+          description: "Ph.D. graduate in Applied Math, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/benjamin-berman/";
+            },},{id: "people-m-s-ece",
+          title: 'M.S., ECE',
+          description: "M.S. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/eze-ahanonu-ms/";
+            },},{id: "people-ph-d-ece-post-doctoral-associate",
+          title: 'Ph.D., ECE; Post-Doctoral Associate',
+          description: "Ph.D. graduate in ECE and Post-Doctoral Associate, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/feng-liu-phd/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/han-oh/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "M.S. and Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/hariharan-lalgudi/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/hsin-chang-feng/";
+            },},{id: "people-ph-d-student-ece",
+          title: 'Ph.D. Student, ECE',
+          description: "Ph.D. Student in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/lavanya-umapathy/";
+            },},{id: "people-post-doctoral-associate-ph-d",
+          title: 'Post-Doctoral Associate, Ph.D.',
+          description: "Post-Doctoral Associate supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/lingling-pu/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "M.S. and Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/mahesh-keerthivasan/";
+            },},{id: "people-post-doctoral-associate",
+          title: 'Post-Doctoral Associate',
+          description: "Post-Doctoral Associate supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/miguel-hernandez/";
+            },},{id: "people-former-phd-student",
+          title: 'Former PhD Student',
+          description: "Former PhD Student, graduated 2024",
+          section: "People",handler: () => {
+              window.location.href = "/people/philip-martin/";
+            },},{id: "people-m-s-ece",
+          title: 'M.S., ECE',
+          description: "M.S. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/rajagopalan-sundaresan/";
+            },},{id: "people-ph-d-applied-math",
+          title: 'Ph.D., Applied Math',
+          description: "Ph.D. graduate in Applied Math, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/robert-crandall/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "M.S. and Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/sagar-mandava/";
+            },},{id: "people-m-s-ece",
+          title: 'M.S., ECE',
+          description: "M.S. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/tony-leung/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/yookyung-kim/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/zhitao-li/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/zhiyang-fu/";
             },},{id: "people-phd-candidate",
           title: 'PhD Candidate',
           description: "PhD Candidate working on quantitative MRI",
@@ -148,11 +248,6 @@ ninja.data = [{
           description: "Professor working on radiology and imaging sciences",
           section: "People",handler: () => {
               window.location.href = "/people/maria-altbach/";
-            },},{id: "people-former-phd-student",
-          title: 'Former PhD Student',
-          description: "Former PhD Student, graduated 2024",
-          section: "People",handler: () => {
-              window.location.href = "/people/philip-martin/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
