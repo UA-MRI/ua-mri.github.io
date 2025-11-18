@@ -13,7 +13,7 @@ email: dkarakay@arizona.edu
 github: https://github.com/dkarakay
 website: https://karakay.me
 linkedin: https://www.linkedin.com/in/deniz-karakay
-scholar: https://scholar.google.com/user=_gbFwIEAAAAJ
+scholar: https://scholar.google.com/citations?user=_gbFwIEAAAAJ&hl=en
 more_info: >
   <p><strong>Research:</strong> Deep learning for medical imaging, MRI reconstruction, quantitative T1/T2 mapping, and WMH segmentation/analysis.</p>
 
