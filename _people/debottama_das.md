@@ -3,7 +3,7 @@ layout: profile
 name: Debottama Das
 title: PhD Student
 permalink: /people/debottama-das/
-description: PhD Student working on medical AI and deep learning
+#description: PhD Student working on medical AI and deep learning
 
 # Profile card data (used for people page)
 category: Students
