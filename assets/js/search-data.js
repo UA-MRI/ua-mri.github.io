@@ -240,7 +240,7 @@ ninja.data = [{
               window.location.href = "/people/briana-curley/";
             },},{id: "people-phd-student",
           title: 'PhD Student',
-          description: "PhD Student working on medical AI and deep learning",
+          description: "",
           section: "People",handler: () => {
               window.location.href = "/people/debottama-das/";
             },},{id: "people-phd-student",
