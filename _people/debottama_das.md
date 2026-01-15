@@ -50,4 +50,3 @@ I am originally from India and completed my Bachelor’s degree in Electronics a
 ## Personal
 
 Outside of research, I enjoy learning about history, watching movies, and experimenting with cooking new cuisines in my free time.
-

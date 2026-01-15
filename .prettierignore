@@ -1,12 +1,23 @@
-**/*.map
-**/*.min.css
-**/*.min.js
+# Minified files
+*.min.js
+*.min.css
+
+# Files with Jekyll/Liquid front matter or templating
+_scripts/
 assets/css/main.scss
-assets/js/distillpub/template.v2.js
-assets/js/search/*.js
-assets/plotly/demo.html
-lighthouse_results/**
-_posts/2015-10-20-math.md
-_sass/font-awesome/*.scss
-_sass/tabler-icons/*.scss
-_scripts/*
+
+# Vendor/third-party files
+assets/js/distillpub/
+assets/js/search/
+node_modules/
+
+# Generated/build files
+_site/
+.jekyll-cache/
+
+# Lighthouse results
+lighthouse_results/
+
+# Lock files
+package-lock.json
+Gemfile.lock
