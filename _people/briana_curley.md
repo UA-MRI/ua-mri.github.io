@@ -12,7 +12,7 @@ image: people/briana_curley.jpeg
 image_circular: true
 email: bcurley2@arizona.edu
 more_info: >
-  <p><strong>Research:</strong> MRI pulse sequence development, diffusion weightede MRI, machine learning for image analysis</p>
+  <p><strong>Research:</strong> MRI pulse sequence development, diffusion weighted MRI, machine learning for image analysis</p>
 
 profile:
   align: right
@@ -20,7 +20,7 @@ profile:
   image_circular: true
   more_info: >
     <p><strong>Email:</strong> bcurley2@arizona.edu</p>
-    <p><strong>Research:</strong> MRI pulse sequence development, diffusion weightede MRI, machine learning for image analysis</p>
+    <p><strong>Research:</strong> MRI pulse sequence development, diffusion weighted MRI, machine learning for image analysis</p>
 
 social: false
 ---
