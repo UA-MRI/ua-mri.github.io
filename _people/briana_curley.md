@@ -49,4 +49,4 @@ Outside of school, I enjoy cycling, reading, and language learning (primarily Sp
 
 ## Extracurricular
 
-I enjoy being active in my community and serving as a mentor to my peers. I currently serve as chair of the University of Ariona IEEE Student Branch as well as treasurer of the amateur radio club on campus. Additionally, I volunteer as a dog walker at the Humane Society of Southern Arizona.
+I enjoy being active in my community and serving as a mentor to my peers. I currently serve as chair of the University of Arizona IEEE Student Branch as well as treasurer of the amateur radio club on campus. Additionally, I volunteer as a dog walker at the Humane Society of Southern Arizona.
