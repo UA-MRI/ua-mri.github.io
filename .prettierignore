@@ -9,6 +9,7 @@ assets/css/main.scss
 # Vendor/third-party files
 assets/js/distillpub/
 assets/js/search/
+assets/plotly/
 node_modules/
 
 # Generated/build files
