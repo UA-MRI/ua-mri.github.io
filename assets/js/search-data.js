@@ -228,9 +228,9 @@ ninja.data = [{
           description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/zhiyang-fu/";
-            },},{id: "people-phd-candidate",
-          title: 'PhD Candidate',
-          description: "PhD Candidate working on quantitative MRI",
+            },},{id: "people-postdoctoral-researcher",
+          title: 'Postdoctoral Researcher',
+          description: "Postdoc working on quantitative MRI",
           section: "People",handler: () => {
               window.location.href = "/people/brian-toner/";
             },},{id: "people-undergraduate-student",
