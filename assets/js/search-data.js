@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-brian-toner-phd-defense",
+        },{id: "post-briana-curley-outstanding-senior-in-ece",
+        
+          title: "Briana Curley - Outstanding Senior in ECE",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/briana-curley-outstanding-senior/";
+          
+        },
+      },{id: "post-brian-toner-phd-defense",
         
           title: "Brian Toner - PhD Defense",
         
