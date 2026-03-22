@@ -125,7 +125,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "people-professor-of-biomedical-engineering-electrical-amp-computer-engineering-and-medical-imaging-bio5-institute-faculty",
           title: 'Professor of Biomedical Engineering, Electrical &amp;amp; Computer Engineering, and Medical Imaging; BIO5 Institute...',
-          description: "Professor working on biomedical imaging",
+          description: "Professor working on MRI, image processing, and medical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/ali-bilgin/";
             },},{id: "people-m-s-student-ece",
@@ -250,12 +250,12 @@ ninja.data = [{
               window.location.href = "/people/deniz-karakay/";
             },},{id: "people-phd-candidate",
           title: 'PhD Candidate',
-          description: "PhD Candidate working on medical AI and deep learning",
+          description: "PhD candidate working on MRI and deep learning for medical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/eze-ahanonu/";
-            },},{id: "people-professor-radiology-and-imaging-sciences-and-biomedical-engineering",
-          title: 'Professor, Radiology and Imaging Sciences and Biomedical Engineering',
-          description: "Professor working on radiology and imaging sciences",
+            },},{id: "people-professor-of-radiology-and-imaging-sciences-and-biomedical-engineering-vice-chair-for-faculty-affairs-director-of-mri-innovation",
+          title: 'Professor of Radiology and Imaging Sciences and Biomedical Engineering; Vice Chair for Faculty...',
+          description: "Professor working on MRI methods and quantitative imaging",
           section: "People",handler: () => {
               window.location.href = "/people/maria-altbach/";
             },},{
