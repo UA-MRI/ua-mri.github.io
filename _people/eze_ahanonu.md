@@ -3,7 +3,7 @@ layout: profile
 name: Eze Ahanonu
 title: PhD Candidate
 permalink: /people/eze-ahanonu/
-description: PhD Candidate working on medical AI and deep learning
+description: PhD candidate working on MRI and deep learning for medical imaging
 
 # Profile card data (used for people page)
 category: Students
@@ -12,7 +12,7 @@ image: people/eze_ahanonu.jpeg
 image_circular: true
 email: eahanonu@arizona.edu
 more_info: >
-  <p><strong>Research:</strong> Medical AI, Deep Learning</p>
+  <p><strong>Research:</strong> Quantitative MRI, deep learning, image reconstruction, and medical imaging methods.</p>
 
 profile:
   align: right
@@ -20,17 +20,23 @@ profile:
   image_circular: true
   more_info: >
     <p><strong>Email:</strong> eahanonu@arizona.edu</p>
-    <p><strong>Research:</strong> Medical AI, Deep Learning</p>
+    <p><strong>Research:</strong> Quantitative MRI, deep learning, image reconstruction, and medical imaging methods.</p>
 
 social: false
 ---
 
-Write your detailed biography here. This is your personal profile page where you can add:
+## Research Interests
 
-- Your research interests
-- Your background and education
-- Publications
-- Projects you're working on
-- Any other information you'd like to share
+Eze Ahanonu's research focuses on quantitative MRI and deep learning for medical imaging. His work includes accelerated MRI acquisition, image reconstruction, and parameter mapping, with recent projects centered on abdominal T1 mapping, motion-robust imaging, and efficient quantitative imaging workflows.
 
-You can use markdown formatting, include images, links, and more. This page will be linked from your profile card on the main people page.
+He has also contributed to earlier work in image compression and machine learning, reflecting a broader interest in efficient and information-rich imaging methods.
+
+## Background
+
+Eze Ahanonu is a PhD candidate in Electrical and Computer Engineering at the University of Arizona. He previously completed his undergraduate degree in Biomedical Engineering and his M.S. in Electrical and Computer Engineering at the University of Arizona.
+
+His work sits at the intersection of engineering, computation, and medical imaging, with projects spanning MRI method development, deep learning, and translational imaging applications.
+
+## Highlights
+
+His recent work has included oral presentations at ISMRM and research on deep learning-based abdominal MRI methods. He was selected for a 2021-22 ARCS Scholarship, received recognition for ISMRM presentations, and was also recognized in the University of Arizona's 2025 patent celebration for collaborative work on a virtual reality training system for airway management.
