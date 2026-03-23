@@ -37,7 +37,6 @@ Ali Bilgin is an Associate Professor with appointments in Biomedical Engineering
 
 He received his B.S. in Electronics and Telecommunications Engineering from Istanbul Technical University, his M.S. in Electrical Engineering from San Diego State University, and his Ph.D. in Electrical Engineering, with a minor in Mathematics, from the University of Arizona.
 
-
 ## Professional Profile
 
 In addition to his research and teaching, Ali Bilgin has contributed broadly to the imaging and signal processing communities through editorial roles and conference leadership, including long-term service with the IEEE Data Compression Conference. More information about his group, publications, and professional activities is available on his [faculty webpage](https://www2.engr.arizona.edu/~bilgin/) and [Google Scholar profile](https://scholar.google.com/citations?user=I25Yns8AAAAJ).
