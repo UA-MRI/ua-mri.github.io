@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-briana-curley-outstanding-senior-in-ece",
+        },{id: "post-u01-workshop-2026",
+        
+          title: "U01 Workshop 2026",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/u01-workshop/";
+          
+        },
+      },{id: "post-briana-curley-outstanding-senior-in-ece",
         
           title: "Briana Curley - Outstanding Senior in ECE",
         
@@ -46,6 +57,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/briana-curley-outstanding-senior/";
+          
+        },
+      },{id: "post-ismrm-workshop-on-data-sampling-and-image-reconstruction",
+        
+          title: "ISMRM Workshop on Data Sampling and Image Reconstruction",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ismrm-data-sampling-workshop/";
           
         },
       },{id: "post-brian-toner-phd-defense",
@@ -133,6 +155,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-webpage-is-live",
           title: '🎉 Our webpage is live!',
+          description: "",
+          section: "News",},{id: "news-two-abstracts-from-our-lab-were-accepted-at-the-ismrm-workshop-on-data-sampling-and-image-reconstruction-in-sedona-arizona",
+          title: '🌵 Two abstracts from our lab were accepted at the ISMRM Workshop on...',
+          description: "",
+          section: "News",},{id: "news-we-attended-ismrm-2026-in-cape-town-south-africa-where-10-abstracts-from-our-lab-were-accepted-including-2-flash-presentations-and-1-power-pitch",
+          title: '🌍 We attended ISMRM 2026 in Cape Town, South Africa, where 10 abstracts...',
           description: "",
           section: "News",},{id: "people-professor-of-biomedical-engineering-electrical-amp-computer-engineering-and-medical-imaging-bio5-institute-faculty",
           title: 'Professor of Biomedical Engineering, Electrical &amp;amp; Computer Engineering, and Medical Imaging; BIO5 Institute...',
@@ -264,6 +292,11 @@ ninja.data = [{
           description: "PhD candidate working on MRI and deep learning for medical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/eze-ahanonu/";
+            },},{id: "people-director-mri-systems-amp-design",
+          title: 'Director, MRI Systems &amp;amp; Design',
+          description: "Director of MRI Systems &amp; Design",
+          section: "People",handler: () => {
+              window.location.href = "/people/kevin-johnson/";
             },},{id: "people-professor-of-radiology-and-imaging-sciences-and-biomedical-engineering-vice-chair-for-faculty-affairs-director-of-mri-innovation",
           title: 'Professor of Radiology and Imaging Sciences and Biomedical Engineering; Vice Chair for Faculty...',
           description: "Professor working on MRI methods and quantitative imaging",
