@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-u01-workshop-2026",
+        },{id: "post-ismrm-2026-in-cape-town",
+        
+          title: "ISMRM 2026 in Cape Town",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ismrm-2026/";
+          
+        },
+      },{id: "post-u01-workshop-2026",
         
           title: "U01 Workshop 2026",
         
@@ -159,8 +170,8 @@ ninja.data = [{
           section: "News",},{id: "news-two-abstracts-from-our-lab-were-accepted-at-the-ismrm-workshop-on-data-sampling-and-image-reconstruction-in-sedona-arizona",
           title: '🌵 Two abstracts from our lab were accepted at the ISMRM Workshop on...',
           description: "",
-          section: "News",},{id: "news-we-attended-ismrm-2026-in-cape-town-south-africa-where-10-abstracts-from-our-lab-were-accepted-including-2-flash-presentations-and-1-power-pitch",
-          title: '🌍 We attended ISMRM 2026 in Cape Town, South Africa, where 10 abstracts...',
+          section: "News",},{id: "news-10-abstracts-from-our-lab-were-accepted-for-ismrm-2026-including-2-flash-presentations-and-1-power-pitch",
+          title: '🌍 10 abstracts from our lab were accepted for ISMRM 2026, including 2...',
           description: "",
           section: "News",},{id: "people-professor-of-biomedical-engineering-electrical-amp-computer-engineering-and-medical-imaging-bio5-institute-faculty",
           title: 'Professor of Biomedical Engineering, Electrical &amp;amp; Computer Engineering, and Medical Imaging; BIO5 Institute...',
