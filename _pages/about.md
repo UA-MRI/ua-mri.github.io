@@ -21,11 +21,23 @@ announcements:
 latest_posts:
   enabled: true
   scrollable: true
-  limit: 3
+  limit: 5
 ---
 
 ## About UA-MRI Research Group
 
+<style>
+  .about-research-text {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+</style>
+
+<div class="about-research-text" markdown="1">
+
 Our group focuses on developing next generation MRI methods, including quantitative mapping such as T1, T2, and diffusion, accelerated and noise robust reconstruction, model based deep learning, and advanced MR signal modeling. We combine MR physics, generative modeling, and image processing techniques to create fast, accurate, and clinically reliable imaging across a wide range of applications.
 
 Our work brings together engineering, computer science, and clinical imaging, with active collaborations across the Departments of Medical Imaging, Biomedical Engineering, and the BIO5 Institute. We aim to translate innovative algorithms, from reconstruction frameworks to quantitative analysis pipelines, into practical tools that improve MRI research and clinical workflows.
+
+</div>
