@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-ismrm-2026-in-cape-town",
+        },{id: "post-eze-ahanonu-phd-defense",
+        
+          title: "Eze Ahanonu - PhD Defense",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/eze-ahanonu-defense/";
+          
+        },
+      },{id: "post-ismrm-2026-in-cape-town",
         
           title: "ISMRM 2026 in Cape Town",
         
@@ -178,104 +189,109 @@ ninja.data = [{
           description: "Professor working on MRI, image processing, and medical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/ali-bilgin/";
-            },},{id: "people-m-s-student-ece",
-          title: 'M.S. Student, ECE',
-          description: "M.S. Student in ECE, supervised by Ali Bilgin",
+            },},{id: "people-m-s-ece",
+          title: 'M.S., ECE',
+          description: "M.S. graduate in ECE, advised by Ali Bilgin and Michael Marcellin",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/alexis-boone/";
-            },},{id: "people-m-s-ece",
-          title: 'M.S., ECE',
-          description: "M.S. graduate in ECE, supervised by Ali Bilgin",
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, now a Principal Engineer in WiFi Systems Engineering at Broadcom",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/anantharaman-krishnan/";
-            },},{id: "people-ph-d-applied-math",
-          title: 'Ph.D., Applied Math',
-          description: "Ph.D. graduate in Applied Math, supervised by Ali Bilgin",
+            },},{id: "people-ph-d-applied-mathematics",
+          title: 'Ph.D., Applied Mathematics',
+          description: "Ph.D. graduate in Applied Mathematics, now Computational Imaging Lead at MITRE",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/benjamin-berman/";
-            },},{id: "people-m-s-ece",
-          title: 'M.S., ECE',
-          description: "M.S. graduate in ECE, supervised by Ali Bilgin",
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, now a Senior Data Scientist at Ever.Ag",
           section: "People",handler: () => {
-              window.location.href = "/people/alumni/eze-ahanonu-ms/";
-            },},{id: "people-ph-d-ece-post-doctoral-associate",
-          title: 'Ph.D., ECE; Post-Doctoral Associate',
-          description: "Ph.D. graduate in ECE and Post-Doctoral Associate, supervised by Ali Bilgin",
+              window.location.href = "/people/alumni/david-schwartz/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, now a Lecturer at Nankai University",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/feng-liu-phd/";
             },},{id: "people-ph-d-ece",
           title: 'Ph.D., ECE',
-          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          description: "Ph.D. graduate in ECE, now a Principal Researcher at the Korea Aerospace Research Institute",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/han-oh/";
             },},{id: "people-ph-d-ece",
           title: 'Ph.D., ECE',
-          description: "M.S. and Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          description: "M.S. and Ph.D. graduate in ECE, now a Staff Engineer/Manager at Qualcomm",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/hariharan-lalgudi/";
             },},{id: "people-ph-d-ece",
           title: 'Ph.D., ECE',
-          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          description: "Ph.D. graduate in ECE",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/hsin-chang-feng/";
-            },},{id: "people-ph-d-student-ece",
-          title: 'Ph.D. Student, ECE',
-          description: "Ph.D. Student in ECE, supervised by Ali Bilgin",
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, now Team Lead for Prediction Models at Function Health",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/lavanya-umapathy/";
-            },},{id: "people-post-doctoral-associate-ph-d",
-          title: 'Post-Doctoral Associate, Ph.D.',
-          description: "Post-Doctoral Associate supervised by Ali Bilgin",
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE, now Director of Software Engineering at ASML",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/lingling-pu/";
             },},{id: "people-ph-d-ece",
           title: 'Ph.D., ECE',
-          description: "M.S. and Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          description: "M.S. and Ph.D. graduate in ECE, now a Staff Scientist at Siemens Healthineers",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/mahesh-keerthivasan/";
-            },},{id: "people-post-doctoral-associate",
-          title: 'Post-Doctoral Associate',
-          description: "Post-Doctoral Associate supervised by Ali Bilgin",
+            },},{id: "people-ph-d-computer-science",
+          title: 'Ph.D., Computer Science',
+          description: "Former University of Arizona postdoctoral researcher, now an Associate Professor at Universitat Autònoma de Barcelona",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/miguel-hernandez/";
-            },},{id: "people-former-phd-student",
-          title: 'Former PhD Student',
-          description: "Former PhD Student, graduated 2024",
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Former PhD student, now a Senior Clinical Support Staff Scientist at Barrow Neurological Institute",
           section: "People",handler: () => {
               window.location.href = "/people/philip-martin/";
             },},{id: "people-m-s-ece",
           title: 'M.S., ECE',
-          description: "M.S. graduate in ECE, supervised by Ali Bilgin",
+          description: "Ph.D. student at the University of Sheffield and Staff Software Engineer at GE HealthCare",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/rajagopalan-sundaresan/";
-            },},{id: "people-ph-d-applied-math",
-          title: 'Ph.D., Applied Math',
-          description: "Ph.D. graduate in Applied Math, supervised by Ali Bilgin",
+            },},{id: "people-ph-d-applied-mathematics",
+          title: 'Ph.D., Applied Mathematics',
+          description: "Ph.D. graduate in Applied Mathematics, now a Senior Applied Scientist at Amazon Ring AI",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/robert-crandall/";
             },},{id: "people-ph-d-ece",
           title: 'Ph.D., ECE',
-          description: "M.S. and Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          description: "M.S. and Ph.D. graduate in ECE, now an Imaging Scientist at GE HealthCare",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/sagar-mandava/";
+            },},{id: "people-ph-d-ece",
+          title: 'Ph.D., ECE',
+          description: "Ph.D. graduate in ECE from the University of Texas at El Paso, now an ORISE Research Fellow at the FDA",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/tahsin-rahman/";
             },},{id: "people-m-s-ece",
           title: 'M.S., ECE',
-          description: "M.S. graduate in ECE, supervised by Ali Bilgin",
+          description: "M.S. graduate in ECE",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/tony-leung/";
             },},{id: "people-ph-d-ece",
           title: 'Ph.D., ECE',
-          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          description: "Ph.D. graduate in ECE, currently a Research Assistant at the University of Arizona",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/yookyung-kim/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
-          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+            },},{id: "people-ph-d-computer-engineering",
+          title: 'Ph.D., Computer Engineering',
+          description: "Ph.D. graduate in Computer Engineering, now a Research Assistant Professor at Northwestern University",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/zhitao-li/";
             },},{id: "people-ph-d-ece",
           title: 'Ph.D., ECE',
-          description: "Ph.D. graduate in ECE, supervised by Ali Bilgin",
+          description: "Ph.D. graduate in ECE, now a Senior Scientist in CT at United Imaging",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/zhiyang-fu/";
             },},{id: "people-postdoctoral-researcher",
@@ -298,9 +314,9 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/deniz-karakay/";
-            },},{id: "people-phd-candidate",
-          title: 'PhD Candidate',
-          description: "PhD candidate working on MRI and deep learning for medical imaging",
+            },},{id: "people-ph-d-electrical-and-computer-engineering",
+          title: 'Ph.D., Electrical and Computer Engineering',
+          description: "Ph.D. graduate working on MRI and deep learning for medical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/eze-ahanonu/";
             },},{id: "people-director-mri-systems-amp-design",
