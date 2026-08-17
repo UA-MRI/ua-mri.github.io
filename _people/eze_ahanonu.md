@@ -1,9 +1,9 @@
 ---
 layout: profile
 name: Eze Ahanonu
-title: PhD Candidate
+title: Ph.D., Electrical and Computer Engineering
 permalink: /people/eze-ahanonu/
-description: PhD candidate working on MRI and deep learning for medical imaging
+description: Ph.D. graduate working on MRI and deep learning for medical imaging
 
 # Profile card data (used for people page)
 category: Students
@@ -33,7 +33,7 @@ He has also contributed to earlier work in image compression and machine learnin
 
 ## Background
 
-Eze Ahanonu is a PhD candidate in Electrical and Computer Engineering at the University of Arizona. He previously completed his undergraduate degree in Biomedical Engineering and his M.S. in Electrical and Computer Engineering at the University of Arizona.
+Eze Ahanonu completed his Ph.D. in Electrical and Computer Engineering at the University of Arizona in 2026. He previously completed his undergraduate degree in Biomedical Engineering and his M.S. in Electrical and Computer Engineering at the University of Arizona.
 
 His work sits at the intersection of engineering, computation, and medical imaging, with projects spanning MRI method development, deep learning, and translational imaging applications.
 

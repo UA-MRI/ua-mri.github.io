@@ -3,18 +3,30 @@ layout: profile
 name: Zhiyang Fu
 title: Ph.D., ECE
 permalink: /people/alumni/zhiyang-fu/
-description: Ph.D. graduate in ECE, supervised by Ali Bilgin
+description: Ph.D. graduate in ECE, now a Senior Scientist in CT at United Imaging
 
 # Profile card data (used for people page)
 category: Alumni
-order: 7
+order: 5
+image: people/zhiyang-fu.jpeg
+image_circular: true
+website: https://zhiyang-fu.github.io/
+linkedin: https://www.linkedin.com/in/zhiyang-fu/
 more_info: >
-  <p><strong>Degree:</strong> Ph.D., ECE</p>
+  <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, November 2021</p>
+  <p><strong>Advisors:</strong> Ali Bilgin and Maria Altbach</p>
+  <p><strong>Current Position:</strong> Senior Scientist, CT, United Imaging - North America</p>
 
 profile:
   align: right
+  image: people/zhiyang-fu.jpeg
+  image_circular: true
   more_info: >
-    <p><strong>Degree:</strong> Ph.D., ECE</p>
+    <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, November 2021</p>
+    <p><strong>Advisors:</strong> Ali Bilgin and Maria Altbach</p>
+    <p><strong>Current Position:</strong> Senior Scientist, CT, United Imaging - North America</p>
 
 social: false
 ---
+
+Zhiyang Fu earned his Ph.D. in ECE from the University of Arizona in November 2021, advised by Ali Bilgin and Maria Altbach. He is currently a Senior Scientist in CT at United Imaging - North America. His research focuses on machine learning for accelerated medical imaging, MRI reconstruction, and artifact correction.
