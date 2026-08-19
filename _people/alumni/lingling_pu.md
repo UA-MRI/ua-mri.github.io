@@ -1,7 +1,7 @@
 ---
 layout: profile
 name: Lingling Pu
-title: Ph.D., ECE
+title: Ph.D., ECE, 2007
 permalink: /people/alumni/lingling-pu/
 description: Ph.D. graduate in ECE, now Director of Software Engineering at ASML
 
@@ -10,7 +10,6 @@ category: Alumni
 order: 18
 linkedin: https://www.linkedin.com/in/lingling-pu-bb874b9/
 more_info: >
-  <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, 2007</p>
   <p><strong>Current Position:</strong> Director of Software Engineering, ASML</p>
 
 profile:

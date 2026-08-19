@@ -1,7 +1,7 @@
 ---
 layout: profile
 name: Alexis Boone
-title: M.S., ECE
+title: M.S., ECE, 2023
 permalink: /people/alumni/alexis-boone/
 description: M.S. graduate in ECE, advised by Ali Bilgin and Michael Marcellin
 
@@ -9,14 +9,12 @@ description: M.S. graduate in ECE, advised by Ali Bilgin and Michael Marcellin
 category: Alumni
 order: 19
 more_info: >
-  <p><strong>Graduated:</strong> M.S. in ECE, University of Arizona, May 2023</p>
-  <p><strong>Advisors:</strong> Ali Bilgin and Michael Marcellin</p>
+  <p><strong>Current Position:</strong> Sandia National Laboratories</p>
 
 profile:
   align: right
   more_info: >
     <p><strong>Graduated:</strong> M.S. in ECE, University of Arizona, May 2023</p>
-    <p><strong>Advisors:</strong> Ali Bilgin and Michael Marcellin</p>
 
 social: false
 ---

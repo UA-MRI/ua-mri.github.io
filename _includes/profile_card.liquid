@@ -18,7 +18,7 @@
     <a href="{{ profile_url }}" style="text-decoration: none; color: inherit; display: block;">
   {% endif %}
   <div
-    class="card h-100 {% if profile_url %}hoverable profile-card-clickable{% endif %}"
+    class="card h-100 {% if profile_url %}hoverable profile-card-clickable{% endif %}{% if profile.category == 'Alumni' %} alumni-profile-card{% endif %}"
     {% if profile_url %}
       style="cursor: pointer;"
     {% endif %}

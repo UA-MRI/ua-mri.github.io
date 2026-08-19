@@ -1,7 +1,7 @@
 ---
 layout: profile
 name: Han Oh
-title: Ph.D., ECE
+title: Ph.D., ECE, 2011
 permalink: /people/alumni/han-oh/
 description: Ph.D. graduate in ECE, now a Principal Researcher at the Korea Aerospace Research Institute
 
@@ -9,7 +9,6 @@ description: Ph.D. graduate in ECE, now a Principal Researcher at the Korea Aero
 category: Alumni
 order: 16
 more_info: >
-  <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, December 2011</p>
   <p><strong>Current Position:</strong> Principal Researcher, Korea Aerospace Research Institute</p>
 
 profile:

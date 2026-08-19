@@ -1,24 +1,19 @@
 ---
 layout: profile
 name: Lavanya Umapathy
-title: Ph.D., ECE
+title: Ph.D., ECE, 2023
 permalink: /people/alumni/lavanya-umapathy/
 description: Ph.D. graduate in ECE, now Team Lead for Prediction Models at Function Health
 
 # Profile card data (used for people page)
 category: Alumni
 order: 4
-image: people/lavanya_umpathy.jpeg
-image_circular: true
 linkedin: https://www.linkedin.com/in/lavanyaumapathy/
 more_info: >
-  <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, 2023</p>
   <p><strong>Current Position:</strong> Team Lead, Prediction Model, Medical Intelligence Lab at Function Health</p>
 
 profile:
   align: right
-  image: people/lavanya_umpathy.jpeg
-  image_circular: true
   more_info: >
     <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, 2023</p>
     <p><strong>Current Position:</strong> Team Lead, Prediction Model, Medical Intelligence Lab at Function Health</p>

@@ -1,7 +1,7 @@
 ---
 layout: profile
 name: Rajagopalan Sundaresan
-title: M.S., ECE
+title: M.S., ECE, 2011
 permalink: /people/alumni/rajagopalan-sundaresan/
 description: Ph.D. student at the University of Sheffield and Staff Software Engineer at GE HealthCare
 
@@ -10,7 +10,6 @@ category: Alumni
 order: 20
 linkedin: https://www.linkedin.com/in/rajagopalan-sundaresan-07206219
 more_info: >
-  <p><strong>Graduated:</strong> M.S. in ECE, University of Arizona, 2011</p>
   <p><strong>Current Position:</strong> Ph.D. Student, University of Sheffield; Staff Software Engineer, GE HealthCare</p>
 
 profile:

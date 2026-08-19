@@ -1,7 +1,7 @@
 ---
 layout: profile
 name: Anantha Raman Krishnan
-title: Ph.D., ECE
+title: Ph.D., ECE, 2011
 permalink: /people/alumni/anantharaman-krishnan/
 description: Ph.D. graduate in ECE, now a Principal Engineer in WiFi Systems Engineering at Broadcom
 
@@ -10,7 +10,6 @@ category: Alumni
 order: 15
 linkedin: https://www.linkedin.com/in/anantha-raman-krishnan-a912932/
 more_info: >
-  <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, 2011</p>
   <p><strong>Current Position:</strong> Principal Engineer, WiFi Systems Engineering, Broadcom Inc.</p>
 
 profile:

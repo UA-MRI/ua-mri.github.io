@@ -1,29 +1,22 @@
 ---
 layout: profile
 name: Zhiyang Fu
-title: Ph.D., ECE
+title: Ph.D., ECE, 2021
 permalink: /people/alumni/zhiyang-fu/
 description: Ph.D. graduate in ECE, now a Senior Scientist in CT at United Imaging
 
 # Profile card data (used for people page)
 category: Alumni
 order: 5
-image: people/zhiyang-fu.jpeg
-image_circular: true
 website: https://zhiyang-fu.github.io/
 linkedin: https://www.linkedin.com/in/zhiyang-fu/
 more_info: >
-  <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, November 2021</p>
-  <p><strong>Advisors:</strong> Ali Bilgin and Maria Altbach</p>
   <p><strong>Current Position:</strong> Senior Scientist, CT, United Imaging - North America</p>
 
 profile:
   align: right
-  image: people/zhiyang-fu.jpeg
-  image_circular: true
   more_info: >
     <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, November 2021</p>
-    <p><strong>Advisors:</strong> Ali Bilgin and Maria Altbach</p>
     <p><strong>Current Position:</strong> Senior Scientist, CT, United Imaging - North America</p>
 
 social: false

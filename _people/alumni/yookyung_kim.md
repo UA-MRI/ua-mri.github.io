@@ -1,7 +1,7 @@
 ---
 layout: profile
 name: Yookyung Kim
-title: Ph.D., ECE
+title: Ph.D., ECE, 2012
 permalink: /people/alumni/yookyung-kim/
 description: Ph.D. graduate in ECE, currently a Research Assistant at the University of Arizona
 
@@ -9,7 +9,6 @@ description: Ph.D. graduate in ECE, currently a Research Assistant at the Univer
 category: Alumni
 order: 14
 more_info: >
-  <p><strong>Graduated:</strong> Ph.D. in ECE, University of Arizona, 2012</p>
   <p><strong>Current Position:</strong> Research Assistant, University of Arizona</p>
 
 profile:

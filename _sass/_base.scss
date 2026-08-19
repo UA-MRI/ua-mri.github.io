@@ -183,6 +183,49 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Alumni cards use a fixed, compact layout so every card has the same height.
+.alumni-profile-card {
+  .card-body {
+    display: flex;
+    height: 16rem;
+    flex-direction: column;
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  .card-title {
+    display: -webkit-box;
+    margin-bottom: 0.25rem;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .card-text {
+    margin-bottom: 0.25rem;
+
+    &.text-muted {
+      display: -webkit-box;
+      margin-bottom: 0.25rem;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+
+    p {
+      display: -webkit-box;
+      margin-bottom: 0.25rem;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+  }
+
+  .profile-social-icons {
+    margin-top: auto !important;
+  }
+}
+
 // Citation
 
 .citation,
