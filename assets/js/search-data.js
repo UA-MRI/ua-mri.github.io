@@ -189,88 +189,83 @@ ninja.data = [{
           description: "Professor working on MRI, image processing, and medical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/ali-bilgin/";
-            },},{id: "people-m-s-ece",
-          title: 'M.S., ECE',
+            },},{id: "people-m-s-ece-2023",
+          title: 'M.S., ECE, 2023',
           description: "M.S. graduate in ECE, advised by Ali Bilgin and Michael Marcellin",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/alexis-boone/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2011",
+          title: 'Ph.D., ECE, 2011',
           description: "Ph.D. graduate in ECE, now a Principal Engineer in WiFi Systems Engineering at Broadcom",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/anantharaman-krishnan/";
-            },},{id: "people-ph-d-applied-mathematics",
-          title: 'Ph.D., Applied Mathematics',
+            },},{id: "people-ph-d-applied-mathematics-2015",
+          title: 'Ph.D., Applied Mathematics, 2015',
           description: "Ph.D. graduate in Applied Mathematics, now Computational Imaging Lead at MITRE",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/benjamin-berman/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
-          description: "Ph.D. graduate in ECE, now a Senior Data Scientist at Ever.Ag",
-          section: "People",handler: () => {
-              window.location.href = "/people/alumni/david-schwartz/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2015",
+          title: 'Ph.D., ECE, 2015',
           description: "Ph.D. graduate in ECE, now a Lecturer at Nankai University",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/feng-liu-phd/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2011",
+          title: 'Ph.D., ECE, 2011',
           description: "Ph.D. graduate in ECE, now a Principal Researcher at the Korea Aerospace Research Institute",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/han-oh/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2008",
+          title: 'Ph.D., ECE, 2008',
           description: "M.S. and Ph.D. graduate in ECE, now a Staff Engineer/Manager at Qualcomm",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/hariharan-lalgudi/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2016",
+          title: 'Ph.D., ECE, 2016',
           description: "Ph.D. graduate in ECE",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/hsin-chang-feng/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2023",
+          title: 'Ph.D., ECE, 2023',
           description: "Ph.D. graduate in ECE, now Team Lead for Prediction Models at Function Health",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/lavanya-umapathy/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2007",
+          title: 'Ph.D., ECE, 2007',
           description: "Ph.D. graduate in ECE, now Director of Software Engineering at ASML",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/lingling-pu/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2018",
+          title: 'Ph.D., ECE, 2018',
           description: "M.S. and Ph.D. graduate in ECE, now a Staff Scientist at Siemens Healthineers",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/mahesh-keerthivasan/";
-            },},{id: "people-ph-d-computer-science",
-          title: 'Ph.D., Computer Science',
+            },},{id: "people-ph-d-computer-science-2015",
+          title: 'Ph.D., Computer Science, 2015',
           description: "Former University of Arizona postdoctoral researcher, now an Associate Professor at Universitat Autònoma de Barcelona",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/miguel-hernandez/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2024",
+          title: 'Ph.D., ECE, 2024',
           description: "Former PhD student, now a Senior Clinical Support Staff Scientist at Barrow Neurological Institute",
           section: "People",handler: () => {
               window.location.href = "/people/philip-martin/";
-            },},{id: "people-m-s-ece",
-          title: 'M.S., ECE',
+            },},{id: "people-m-s-ece-2011",
+          title: 'M.S., ECE, 2011',
           description: "Ph.D. student at the University of Sheffield and Staff Software Engineer at GE HealthCare",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/rajagopalan-sundaresan/";
-            },},{id: "people-ph-d-applied-mathematics",
-          title: 'Ph.D., Applied Mathematics',
+            },},{id: "people-ph-d-applied-mathematics-2017",
+          title: 'Ph.D., Applied Mathematics, 2017',
           description: "Ph.D. graduate in Applied Mathematics, now a Senior Applied Scientist at Amazon Ring AI",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/robert-crandall/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2018",
+          title: 'Ph.D., ECE, 2018',
           description: "M.S. and Ph.D. graduate in ECE, now an Imaging Scientist at GE HealthCare",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/sagar-mandava/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2025",
+          title: 'Ph.D., ECE, 2025',
           description: "Ph.D. graduate in ECE from the University of Texas at El Paso, now an ORISE Research Fellow at the FDA",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/tahsin-rahman/";
@@ -279,18 +274,18 @@ ninja.data = [{
           description: "M.S. graduate in ECE",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/tony-leung/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2012",
+          title: 'Ph.D., ECE, 2012',
           description: "Ph.D. graduate in ECE, currently a Research Assistant at the University of Arizona",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/yookyung-kim/";
-            },},{id: "people-ph-d-computer-engineering",
-          title: 'Ph.D., Computer Engineering',
+            },},{id: "people-ph-d-computer-engineering-2019",
+          title: 'Ph.D., Computer Engineering, 2019',
           description: "Ph.D. graduate in Computer Engineering, now a Research Assistant Professor at Northwestern University",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/zhitao-li/";
-            },},{id: "people-ph-d-ece",
-          title: 'Ph.D., ECE',
+            },},{id: "people-ph-d-ece-2021",
+          title: 'Ph.D., ECE, 2021',
           description: "Ph.D. graduate in ECE, now a Senior Scientist in CT at United Imaging",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/zhiyang-fu/";
