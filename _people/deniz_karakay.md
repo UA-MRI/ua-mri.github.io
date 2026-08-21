@@ -34,7 +34,7 @@ My research focuses on medical image analysis and deep learning, with an emphasi
 
 ## Background
 
-I am originally from Istanbul, Turkey, and completed my B.Sc. in Electrical and Electronics Engineering at Middle East Technical University (METU). In 2023, I moved to Tucson, AZ to begin my Ph.D. in Electrical and Computer Engineering at the University of Arizona.
+I am originally from Istanbul, Turkey, and completed my B.Sc. in Electrical and Electronics Engineering at Middle East Technical University (METU). In 2023, I moved to Tucson, Arizona, to begin my Ph.D. in Electrical and Computer Engineering at the University of Arizona, where I earned my M.S. in Electrical and Computer Engineering in 2026 along the way toward my Ph.D.
 
 ## Publications
 
