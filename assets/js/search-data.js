@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-eze-ahanonu-phd-defense",
+        },{id: "post-arizona-alzheimer-39-s-consortium-2026-annual-scientific-conference",
+        
+          title: "Arizona Alzheimer&#39;s Consortium 2026 Annual Scientific Conference",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/aac-2026/";
+          
+        },
+      },{id: "post-eze-ahanonu-phd-defense",
         
           title: "Eze Ahanonu - PhD Defense",
         
@@ -184,6 +195,12 @@ ninja.data = [{
           section: "News",},{id: "news-10-abstracts-from-our-lab-were-accepted-for-ismrm-2026-including-2-flash-presentations-and-1-power-pitch",
           title: '🌍 10 abstracts from our lab were accepted for ISMRM 2026, including 2...',
           description: "",
+          section: "News",},{id: "news-congratulations-to-eze-ahanonu-for-successfully-defending-his-phd-thesis",
+          title: '🎉 Congratulations to Eze Ahanonu for successfully defending his PhD thesis!',
+          description: "",
+          section: "News",},{id: "news-3-posters-from-our-lab-were-accepted-at-the-aac-2026-in-tucson",
+          title: '🌵 3 posters from our lab were accepted at the AAC 2026 in...',
+          description: "",
           section: "News",},{id: "people-professor-of-biomedical-engineering-electrical-amp-computer-engineering-and-medical-imaging-bio5-institute-faculty",
           title: 'Professor of Biomedical Engineering, Electrical &amp;amp; Computer Engineering, and Medical Imaging; BIO5 Institute...',
           description: "Professor working on MRI, image processing, and medical imaging",
@@ -309,9 +326,9 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/deniz-karakay/";
-            },},{id: "people-ph-d-electrical-and-computer-engineering",
-          title: 'Ph.D., Electrical and Computer Engineering',
-          description: "Ph.D. graduate working on MRI and deep learning for medical imaging",
+            },},{id: "people-postdoctoral-researcher",
+          title: 'Postdoctoral Researcher',
+          description: "Postdoc working on MRI and deep learning for medical imaging",
           section: "People",handler: () => {
               window.location.href = "/people/eze-ahanonu/";
             },},{id: "people-director-mri-systems-amp-design",
